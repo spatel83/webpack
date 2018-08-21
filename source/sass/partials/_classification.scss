@@ -1,0 +1,70 @@
+#classification-calculator {
+	ul {
+		padding: 0;
+		margin: 15px;
+		width: calc(50% - 15px);
+		display: inline-block;
+		vertical-align: top;
+
+		li {
+			padding: 8px 20px;
+			background-color: #e6e8e9;
+			margin: 0;
+			list-style: none;
+		}
+
+		&#first-classification-selection {
+			margin-left: 0;
+
+			&.close li {
+				display: none;
+			}
+
+			&.close li:first-child {
+				display: block;
+			}
+		}
+
+		&#second-classification-selection {
+			margin-right: 0;
+
+			&.close li {
+				display: none;
+			}
+
+			&.close li:first-child {
+				display: block;
+			}
+		}
+		@media (max-width: 567px) {
+			width: 100%;
+
+			&#first-classification-selection,
+			&#second-classification-selection {
+				margin: 15px 0;
+			}
+		}
+	}
+
+	#classification-result {
+		padding: 15px;
+		width: calc(100% - 30px);
+		background-color: #e6e8e9;
+		margin: 15px 0 30px;
+
+		#class-result {
+			font-weight: bold;
+			font-size: 16px;
+			margin: 5px 0;
+		}
+
+		#classification-title {
+			font-weight: bold;
+			margin: 5px 0;
+		}
+
+		&.hide {
+			display: none;
+		}
+	}
+}

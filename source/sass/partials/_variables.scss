@@ -1,0 +1,96 @@
+/**
+ * Variables Partial
+ * Fonts, colors and any other reusable styles affecting the main theme have
+ * been broken up and added here.
+ */
+
+@font-face {
+  font-family: 'ProximaNovaLight';
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_B_0.eot");
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_B_0.woff") format('woff'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_B_0.ttf") format('truetype'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_B_0.svg") format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaSemibold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_C_0.eot");
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_C_0.woff") format('woff'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_C_0.ttf") format('truetype'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_C_0.svg") format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_D_0.eot");
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_D_0.woff") format('woff'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_D_0.ttf") format('truetype'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_D_0.svg") format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaBold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_E_0.eot");
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_E_0.woff") format('woff'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_E_0.ttf") format('truetype'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/298938_E_0.svg") format('svg');
+}
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/icons/fontawesome-webfont.eot?v=4.4.0");
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/icons/fontawesome-webfont.eot?#iefix&v=4.4.0") format('embedded-opentype'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/icons/fontawesome-webfont.woff2?v=4.4.0") format('woff2'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/icons/fontawesome-webfont.woff?v=4.4.0") format('woff'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/icons/fontawesome-webfont.ttf?v=4.4.0") format('truetype'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/icons/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format('svg');
+}
+
+.fa {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #c5cfd4;
+  display: inline-block;
+  font: 20px FontAwesome;
+  -webkit-font-language-override: normal;
+  font-language-override: normal;
+  font-stretch: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+@font-face {
+  font-family: 'Weather';
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/weather/artill_clean_icons-webfont.eot");
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/weather/artill_clean_icons-webfont.eot?#iefix") format('embedded-opentype'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/weather/artill_clean_icons-webfont.woff") format('woff'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/weather/artill_clean_icons-webfont.ttf") format('truetype'), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/weather/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg") format('svg');
+}
+
+.wa {
+  font-family: Weather;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+@font-face {
+  font-family: "iconvault";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/weather/iconvault_forecastfont.eot");
+  src: url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/weather/iconvault_forecastfont.eot?#iefix") format("embedded-opentype"), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/weather/iconvault_forecastfont.woff") format("woff"), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/weather/iconvault_forecastfont.ttf") format("truetype"), url("https://vmsnetdev.varian.com/Style Library/vmsNet/fonts/weather/iconvault_forecastfont.svg#iconvault") format("svg");
+}
+
+
+/**
+ * Fonts
+ */
+$font-light: 'ProximaNovaLight';
+$font-regular: 'ProximaNovaRegular';
+$font-semibold: 'ProximaNovaSemibold';
+$font-bold: 'ProximaNovaBold';
+
+$font-awesome: 'FontAwesome';
+$weather-font: 'Weather';
+$icon-vault: 'iconvault';
+
+
+/**
+ * Colors
+ */
+$font-header-color: #5c707b;
+$font-body-color: #4b6471;

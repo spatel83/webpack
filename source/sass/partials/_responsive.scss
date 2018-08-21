@@ -1,0 +1,8160 @@
+/*************************Production**************************************************************************************
+Company: Spadeworx Solution Services Pvt. Ltd.
+Author: Raju, Reetu
+Description: This CSS contains styling properties for the project VNSNet. The screen sizes targeted as follows
+			@media only screen and (max-width: 1280px) range from 1280px and above
+			@media only screen and (max-width: 1024px) range from 1024px to 1279px
+			@media only screen and (max-width: 720px) range from 720px to 1023px
+			@media only screen and (max-width: 568px) range from 568px to 719px
+			@media only screen and (max-width: 320px) range from 320px to 567px
+Version: 1.0
+Date: 15-July-2015
+Updated On: 15-July-2016
+Updated By: Raju Thadakamadla
+
+Requirement DESKTOPS & LAPTOPS
+• layout max width = 1280px if device width is >/=1280px for 14’’ notebook / 15”, 15.6’’ laptop / 18.5’’, 19’’, 20”, 21.5’’, 22”, 24” monitors / Etc
+• layout max width = 1024px if device width is <1280px or >/= 1024px for 15’’ monitors / Etc
+TABLETS
+• layout max width = 1280px if CSS width is >/=1280px for Galaxy Tab 10” landscape, Samsung Nexus 10 landscape / Etc
+• layout max width = 1024px if CSS width is <1280px or >/= 1024px for iPad 1, 2, 3, 4, Air, Mini landscape / Etc
+• layout max width = 720px if CSS width is <1024 or >/= 720px for Galaxy Tab 10” portrait, iPad 1, 2, 3, 4, Air, Mini portrait / Etc
+• layout max width = 568px if CSS width is <720 or >/= 568px for Galaxy Tab portrait / Etc
+SMARTPHONES & PHABLETS
+• layout max width = 720px if CSS width is <1024 or >/= 720px for iPhone 6 Plus landscape / Etc
+• layout max width = 568px if CSS width is <720 or >/= 568px for iPhone 5 & 6 landscape, Samsung Galaxy S3, S4, S5 landscape / Etc
+• layout max width = 320px if CSS width is <568 iPhone 6 & 5 portrait, iPhone 4 & 3 portrait & landscape, Samsung Galaxy portrait / Etc
+**************************************************************************************************************/
+/********************************************** 320px Wrapper Starts *****************************************/
+@media only screen and (max-width: 567px) {
+	/*************** Page Layout Class Starts ******************/
+	.page-width {
+		width: 320px;
+	}
+
+	.page-width > .left-section {
+		padding: 0;
+	}
+
+	#s4-workspace {
+		overflow-y: auto;
+		width: 100%!important;
+	}
+
+	.flex-cont > .right-section,
+	.page-width > .left-section {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+
+	.todays-varian-item {
+		width: 100%;
+		margin: 0 0 20px;
+	}
+
+	#ms-designer-ribbon {
+		display: none!important;
+	}
+
+	#s4-workspace {
+		z-index: 9;
+	}
+
+	.display-320-block {
+		display: block;
+	}
+
+	.bread-crumb-cont {
+		display: none;
+	}
+
+	.todays-varian-item .link {
+		margin-right: 5px;
+	}
+	/****************** Page Layout CSS Ends  *************************/
+	/****************** Welcome Menu CSS Starts  **********************/
+	.header #SearchBox .ms-srch-sb > input {
+		width: 51%!important;
+		font-size: 16px !important;
+	}
+
+	.srch-advancedtable {
+		margin: 0;
+		padding: 0;
+	}
+	/****************** Mega Menu CSS Starts  *************************/
+	.submenu .col {
+		border-left: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		padding: 0 0 0 18px;
+	}
+	/****************** Our Organization CSS Starts  **********************/
+	#menu-org .left-col {
+		width: 100%;
+		padding: 0;
+	}
+
+	#menu-org .right-col {
+		width: 100%;
+		padding: 0;
+		margin: 20px 0 0;
+		height: auto;
+	}
+
+	#menu-org .corporate-services .cop-ser-links.iconic-link {
+		margin: 10px 0 0;
+		width: 100%;
+	}
+
+	#menu-org .right-col .ceo-qat-update {
+		padding: 0;
+		margin: 13px 0;
+	}
+
+	#menu-org .right-col .oc-cl {
+		padding: 0;
+	}
+
+	#menu-org .right-col .heading {
+		padding: 0;
+	}
+
+	#menu-org .right-col .reg-site {
+		padding-left: 0;
+	}
+
+	#menu-org .corporate-services .cop-ser-links {
+		width: 45%;
+		margin-left: 0;
+	}
+
+	#menu-org .business-unit .bus-unit-links .link-li {
+		margin: 3px 0;
+		width: 100%;
+		float: none;
+		text-align: left;
+	}
+
+	#menu-org .corporate-services ul.cop-ser-links:nth-child(2),
+	#menu-org .corporate-services ul.cop-ser-links:nth-child(3),
+	#menu-org .right-col .reg-site li {
+		width: 50%;
+		margin-right: 0;
+	}
+
+	#menu-org .corporate-services ul.cop-ser-links:nth-child(4) {
+		width: 100%;
+	}
+
+	#menu-org .business-unit .bus-unit-links .link-li .thumb {
+		display: none;
+	}
+
+	#menu-org .right-col .oc-cl .link {
+		float: left;
+	}
+
+	#menu-org .right-col .misc {
+		margin-left: 0;
+	}
+
+	li.link.all-loc {
+		margin-left: -20px;
+	}
+	/****************** Our Organization CSS Ends  **********************/
+	/****************** News and Events CSS Starts **********************/
+	#news-event .left-col .menu-feat-story {
+		margin: 10px 0 20px;
+	}
+
+	#news-event .left-col .menu-wire-story .thumb {
+		width: 80px;
+	}
+
+	#news-event .left-col .menu-wire-story .desc {
+		width: 65%;
+	}
+
+	#news-event .left-col .menu-wire-story .desc .text {
+		height: auto;
+	}
+
+	#news-event .left-col {
+		width: 100%;
+		padding: 0;
+	}
+
+	#career-benefits > div > div.left-col.col > div.hr-careers.clearfix.southspace2 > header > h2,
+	#news-event > div > div.left-col.col.clearfix > header > h2,
+	#resources > div > div.left-col.col > div.corporate-services.northspace4.southspace3 > header > h2 {
+		display: none;
+	}
+
+	#news-event .heading {
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	#news-event .left-col .left-module {
+		width: 100%;
+	}
+
+	#news-event .left-module,
+	#news-event .right-module {
+		float: none;
+	}
+
+	#news-event .left-col .right-module {
+		width: 100%;
+		margin-left: 0;
+		border-bottom: 1px solid #8ca3af;
+	}
+
+	#news-event .link-set1 {
+		margin: 0;
+	}
+
+	.menu-vms-wire.menu-wire-story {
+		margin-bottom: 15px;
+	}
+
+	#news-event .common-link1 .link {
+		float: left;
+		width: 49%;
+	}
+
+	#news-event .link-set2 {
+		margin-bottom: 0;
+		margin-top: 10px;
+	}
+
+	#news-event .right-col {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		height: auto;
+	}
+
+	#news-event .right-col .left-module {
+		width: 100%;
+		display: none;
+	}
+
+	#news-event .right-col .right-module {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	#news-event .right-module {
+		margin-left: 0;
+	}
+
+	.calendar-control {
+		width: 223px;
+		margin: 0 auto 10px;
+	}
+
+	#news-event .link-set1 li {
+		float: left;
+		width: 49%;
+	}
+
+	#news-menu .right-module hr.divder {
+		display: none;
+	}
+
+	#news-event .right-col .right-module .link-set2 {
+		float: none;
+		margin: 10px 0 0;
+		clear: both;
+	}
+
+	#news-event .right-col .right-module .link-set2 .fa {
+		display: none;
+	}
+
+	#news-event .left-col .right-module .link-set1 {
+		float: left;
+		width: 50%;
+		/*margin-top:10px;*/
+	}
+
+	#news-event .left-col .right-module .link-set1-1 {
+		margin-bottom: 9px;
+		float: right;
+		width: 50%;
+		margin-top: 15px;
+	}
+
+	#news-event .left-col .right-module .link-set1 li,
+	#news-event .left-col .right-module .link-set1-1 li {
+		float: none;
+		width: 100%;
+	}
+	/****************** News and Events CSS Ends ******************/
+	/****************** Career and benefits Starts ****************/
+	#career-benefits .left-col {
+		width: 100%;
+		padding: 0;
+	}
+
+	#career-benefits .left-col .logo-list .link-li:first-child {
+		margin: 0;
+	}
+
+	#career-benefits .left-col .logo-list .link-li {
+		margin: 0 0 0 10px;
+		max-width: 27%;
+		padding: 0 2%;
+	}
+
+	#career-benefits .left-col .benefits-links {
+		width: 50%;
+		margin-left: 0 !important;
+	}
+
+	#career-benefits .left-col .my-benefits {
+		border-bottom: 1px solid #8ca3af;
+	}
+
+	#career-benefits .left-col .benefits-links:nth-child(4) {
+		margin-left: 0;
+	}
+
+	#career-benefits .left-col .forms-links {
+		margin: 0 0 10px 10px;
+		width: 48%;
+	}
+
+	#career-benefits .left-col .forms-links:nth-child(4) {
+		margin-left: 0;
+	}
+
+	#career-benefits .left-col .imp-forms {
+		margin-bottom: 7px;
+	}
+
+	#career-benefits .right-col {
+		width: 100%;
+		padding: 0;
+	}
+
+	#career-benefits .right-col .team-contacts {
+		margin-top: 11px;
+	}
+
+	#career-benefits .right-col .southspace1 {
+		margin-bottom: 0;
+	}
+
+	#career-benefits .right-col .logo-list li {
+		width: 33%;
+		float: left;
+		padding: 0;
+	}
+
+	#career-benefits .right-col .logo-list li a img {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#career-benefits .right-col .common-link {
+		width: 50%;
+		float: left;
+		margin: 0;
+	}
+
+	#career-benefits .hr-careers {
+		width: auto;
+		margin-bottom: 0;
+	}
+
+	#career-benefits .hr-careers .welcome-block {
+		width: 100%;
+		border-bottom: 1px solid #8ca3af;
+	}
+
+	#career-benefits .hr-careers .job-opp {
+		width: auto;
+		margin: 10px 0 5px;
+	}
+	/****************** Career and Benefits CSS Starts  **********************/
+	/****************** Resources CSS Starts  ********************************/
+	#resources .left-col {
+		width: 100%;
+		padding: 0;
+	}
+
+	#resources .left-col .misc-links-1 .misc-links {
+		width: 48%;
+		margin: 0 0 10px 10px;
+	}
+
+	#resources .left-col .misc-links-1 .misc-links:nth-child(3) {
+		margin-left: 0;
+	}
+
+	#resources .left-col .brand-central {
+		display: none;
+	}
+
+	#resources .left-col .cop-ser-links {
+		margin: 0 0 10px;
+		width: 48%;
+	}
+
+	#resources .left-col .corporate-services .cop-ser-links:nth-child(4) {
+		margin-left: 0;
+	}
+
+	#resources .left-col .corporate-services {
+		margin-bottom: 5px;
+		margin-top: 0;
+	}
+
+	#resources .left-col .misc-links-2 {
+		margin-bottom: 10px;
+	}
+
+	#resources .left-col .misc-links-2 .misc-links:first-child {
+		margin: 0 0 10px;
+	}
+
+	#resources .left-col .misc-links-2 .misc-links {
+		float: left;
+		width: 50%;
+		margin: 0;
+	}
+
+	#resources .left-col .cop-ser-links:nth-child(2),
+	#resources .left-col .cop-ser-links:nth-child(3),
+	#resources .left-col .cop-ser-links:nth-child(4) {
+		width: 50%;
+	}
+
+	#resources .left-col .cop-ser-links li {
+		margin-right: 5px;
+	}
+
+	#resources .right-col {
+		width: 100%;
+		padding: 0;
+	}
+
+	#resources .right-col .app-tool {
+		margin: 20px 0 0;
+	}
+	/*#resources .right-col .app-thumb {
+	    float: left;
+	    margin:0 0 0 20px;
+	    width: 160px;
+	}*/
+	#resources .right-col .app-thumb .link {
+		width: 130px;
+		height: 30px;
+	}
+
+	#resources .right-col .app-thumb .thumb-intellisource {
+		margin-top: -17px;
+	}
+
+	#resources .right-col .app-thumb .live-meeting a {
+		position: relative;
+		top: 6px;
+	}
+
+	#resources .right-col .app-thumb .link img {
+		max-width: 100%;
+	}
+
+	#resources .right-col .app-thumb {
+		margin: 0 !important;
+		float: left;
+		width: 50%;
+	}
+
+	#resources .right-col .misc-links-2 .misc-links:first-child {
+		float: left;
+		margin-left: 0;
+	}
+
+	#resources .right-col .misc-links-2 .misc-links {
+		float: left;
+		width: 50%;
+		margin: 0;
+	}
+
+	#resources .right-col .misc-links-2 .misc-links li {
+		margin-right: 5px;
+	}
+
+	.submenu .common-link .link {
+		margin-right: 5px;
+	}
+	/****************** Resources CSS Ends  ********************************/
+	/****************** Community CSS Starts *******************************/
+	#community .left-col {
+		width: 100%;
+		padding: 0;
+	}
+
+	#community .left-col .our-community .thumb {
+		width: 130px;
+		height: 77px;
+		float: left;
+		margin: 0 10px 0 0;
+	}
+
+	#community .left-col .our-community .desc-block {
+		float: left;
+	}
+
+	#community .left-col #CommunitySection {
+		margin-bottom: 15px;
+	}
+
+	#community .middle-col {
+		width: 100%;
+		padding: 0;
+	}
+
+	#community .middle-col .people-stories {
+		margin-top: 15px;
+	}
+
+	#community .middle-col .comm-events {
+		margin-bottom: 20px;
+	}
+
+	#community .right-col {
+		width: 100%;
+		padding: 0;
+	}
+
+	#community .right-col .misc-link-1 {
+		margin-top: 20px;
+	}
+
+	#community .misc-link-1 .link {
+		margin-bottom: 10px;
+		float: left;
+		width: 49%;
+	}
+	/****************** Community CSS Ends *******************************/
+	/****************** Welcome Menu CSS Ends ****************************/
+	/********************* Footer CSS Starts ******************************/
+	#yellowzone {
+		display: none;
+	}
+
+	.footer .footer-nav,
+	.footer .grad-footer-claim-note,
+	.footer .social-net-icons {
+		display: none;
+	}
+
+	.footer .page-width {
+		width: 320px;
+	}
+
+	.footer .page-width .right-section {
+		display: block;
+		width: 100%;
+		min-height: 0;
+		padding: 0;
+		margin-top: -140px;
+		-webkit-box-shadow: 0 0 0 0 #fdb813;
+		box-shadow: 0 0 0 0 #fdb813;
+		height: auto;
+		top: 10px;
+	}
+
+	.footer .warning-cont {
+		float: left;
+		width: 97%;
+		margin: 30px 0 0 10px;
+	}
+
+	.footer .page-width .left-section {
+		display: block;
+		width: 310px;
+		float: none;
+		background: none;
+		padding: 0;
+		min-height: 0;
+		height: 110px;
+	}
+
+	div#company-links {
+		width: 310px;
+	}
+
+	div#disclaimer {
+		top: 60px;
+		width: 310px;
+	}
+
+	.footer .footer-logo {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.footer .social-network-cont {
+		margin: 15px 0;
+	}
+
+	.footer .warning-icon {
+		width: 47px;
+		height: 55px;
+		margin: 10px 0 0 10px;
+		background-size: 100%;
+		top: -5px;
+	}
+
+	footer {
+		margin: 20px 0 0;
+		/*margin-top: 150px;*/
+	}
+
+	.claim-note-cont .page-width .left-section,
+	.social-network-cont {
+		width: 310px;
+	}
+
+	.social-net-icons label {
+		display: none;
+	}
+
+	.footer-logo {
+		top: 10px;
+	}
+
+	.social-net-icons {
+		right: 15px;
+	}
+
+	.grad-footer {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aeb9bf+50,fdb813+50 */
+		background: #aeb9bf;
+		/* Old browsers */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		/* FF3.6-15 */
+		/* Chrome10-25,Safari5.1-6 */
+		background: -webkit-gradient(linear, left top, right top, color-stop(100%, #aeb9bf), to(#fdb813));
+		background: linear-gradient(to right, #aeb9bf 100%, #fdb813 100%);
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeb9bf', endColorstr='#fdb813',GradientType=1 );*/
+		/* IE6-8 */
+	}
+
+	.grad-footer .page-width {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aeb9bf+76,fdb813+76,fdb813+76 */
+		background: #aeb9bf;
+		/* Old browsers */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeb9bf', endColorstr='#fdb813',GradientType=1 ); */
+		/* IE6-8 */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* FF3.6+ */
+		/* Chrome,Safari4+ */
+		/* Chrome10+,Safari5.1+ */
+		/* Opera 11.10+ */
+		/* IE10+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(100%, #aeb9bf), color-stop(100%, #fdb813), to(#fdb813));
+		background: linear-gradient(to right, #aeb9bf 100%, #fdb813 100%, #fdb813 100%);
+		/* W3C */
+	}
+
+	.grad-footer-claim-note {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a3adb3+50,fdb813+50 */
+		background: #a3adb3;
+		/* Old browsers */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* FF3.6-15 */
+		/* Chrome10-25,Safari5.1-6 */
+		background: -webkit-gradient(linear, left top, right top, color-stop(100%, #a3adb3), to(#fdb813));
+		background: linear-gradient(to right, #a3adb3 100%, #fdb813 100%);
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3adb3', endColorstr='#fdb813',GradientType=1 );*/
+		/* IE6-8 */
+		height: 57px;
+	}
+
+	.grad-footer-claim-note .claim-note {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a3adb3+76,fdb813+76 */
+		background: #a3adb3;
+		/* Old browsers */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3adb3', endColorstr='#fdb813',GradientType=1 );*/
+		/* IE6-8 */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* FF3.6+ */
+		/* Chrome,Safari4+ */
+		/* Chrome10+,Safari5.1+ */
+		/* Opera 11.10+ */
+		/* IE10+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(100%, #a3adb3), to(#fdb813));
+		background: linear-gradient(to right, #a3adb3 100%, #fdb813 100%);
+		/* W3C */
+		height: 57px;
+	}
+	/*********************** Footer CSS Ends *************************/
+	/*********************** Home Page Starts ***********************/
+	/*********************** Featured Stories Starts ***************/
+	#SubmitStory {
+		display: none;
+	}
+
+	.home-features-stories-cont .webpart-content {
+		height: auto;
+	}
+
+	.home-features-stories-cont .custom-scroll {
+		height: auto!important;
+	}
+
+	.featured-stories {
+		height: 230px;
+		width: 100%;
+	}
+
+	.featured-stories figure {
+		width: 300px;
+		height: 130px;
+		display: none;
+	}
+
+	.featured-stories figure img,
+	.features-default-img img {
+		/* max-width: 23.1em;
+	    max-height: 10em;
+	    min-width: 23.1em;
+	    min-height: 10em;*/
+		height: 100%;
+	}
+
+	.home-features-stories-cont .ms-webpart-cell-vertical,
+	.home-features-stories-cont .ms-webpart-chrome-vertical,
+	.home-features-stories-cont .ms-webpart-zone {
+		display: block;
+	}
+
+	.featured-stories .bx-wrapper .bx-viewport {
+		height: auto!important;
+		width: 100% !important;
+	}
+
+	.featured-stories .slider-content-block {
+		top: 280px;
+		background: #5d6c77;
+		height: auto;
+	}
+
+	.featured-stories .featured-story-slider li {
+		width: 300px;
+	}
+
+	.featured-stories .slider-content-block {
+		position: static;
+	}
+
+	.featured-stories .details {
+		height: 60px;
+	}
+
+	.featured-stories .date {
+		margin: 0;
+	}
+
+	.featured-stories .slider-content-block {
+		width: 270px;
+		height: 210px;
+	}
+
+	.featured-stories .read-more {
+		display: none;
+	}
+
+	.featured-stories .description {
+		max-height: 109px!important;
+		display: none;
+	}
+
+	.bx-wrapper .bx-pager {
+		bottom: -5px;
+	}
+
+	aside.slider-content-block > div.actions {
+		padding-top: 35px !important;
+	}
+
+	.featured-stories .bx-controls {
+		bottom: 212px;
+		right: 0;
+		left: 211px;
+		top: inherit;
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+	}
+	/*********************** Featured Stories Ends ***************/
+	/*********************** VMS Wire CSS Starts ****************/
+	.vmsNet-wire-cont {
+		width: 100%;
+	}
+
+	.featured-application .bx-controls,
+	.vmsNet-wire-cont .bx-controls {
+		/*display: none;*/
+	}
+
+	.imaging-component .featured-application .bx-next,
+	.vmsNet-wire-cont .bx-next {
+		right: -12px;
+	}
+
+	.featured-application .bx-next {
+		right: -12px;
+		top: 75%!important;
+	}
+
+	.imaging-component .featured-application .bx-prev,
+	.vmsNet-wire-cont .bx-prev {
+		left: -12px;
+	}
+
+	.featured-application .bx-prev {
+		left: -12px;
+		top: 75%!important;
+	}
+
+	.vmsNet-wire-cont .ms-webpart-cell-vertical,
+	.vmsNet-wire-cont .ms-webpart-chrome-vertical,
+	.vmsNet-wire-cont .ms-webpart-zone {
+		display: block;
+	}
+
+	.vmsNet-wire-cont {
+		float: none;
+		margin: 0;
+		clear: both;
+	}
+
+	.vmsNet-wire-cont li .wire-description .wire-text {
+		height: 55px;
+	}
+	/*********************** VMS Wire CSS Ends **************************/
+	/********************** Featured Application Starts *****************/
+	.featured-application {
+		margin: 15px 0 0;
+	}
+	/********************** Featured Application Ends *****************/
+	/********************** Our Location Starts ***********************/
+	.our-location-bg {
+		padding: 10px;
+	}
+
+	.our-location-bg .left-side {
+		padding-left: 0;
+	}
+
+	.our-location-bg .location-img {
+		display: none;
+	}
+
+	.our-location-bg .webpart-content {
+		height: 120px;
+	}
+
+	.our-location-bg .webpart-content .custom-scroll {
+		padding: 0;
+		height: 120px!important;
+	}
+
+	.our-location-bg {
+		min-height: 120px;
+	}
+
+	.our-location-bg .left-side .select-location select {
+		border: none;
+		color: #aeb9bf;
+		width: 85px;
+	}
+	/********************** Our Location Ends ***********************/
+	/********************** Home Varian People Starts **************/
+	.home .varian-people-bg .ms-webpart-titleText {
+		margin-left: 0;
+	}
+	/********************** Home Varian People Ends *****************/
+	/********************* Notices CSS Starts **********************/
+	.home .notices-bg {
+		margin-bottom: 20px;
+		width: 100%!important;
+		min-height: 90px;
+		height: auto;
+		padding: 0 0 10px;
+	}
+
+	.home .notices-bg ul.cbs-List-Notices {
+		padding: 2px 0 0;
+	}
+
+	.home .notices-bg .slimScrollBar {
+		z-index: 9 !important;
+	}
+
+	.home .notices-bg li {
+		margin: 11px 0;
+	}
+	/********************* Notices CSS Ends ***************************/
+	/********************* Right Section CSS Starts *******************/
+	.home .page-width .right-section {
+		padding: 0;
+		background-color: #f6f6f6;
+	}
+
+	.right-section article.tab-cont {
+		display: none;
+	}
+	/*** StockTicker Starts
+	* Extending bottom red/green line, by setting width auto
+	**********************/
+	.home .var-bg {
+		margin: 0 0 10px 0 !important;
+	}
+
+	#stock_widget_container {
+		width: auto;
+	}
+
+	div.wd_widget {
+		width: auto;
+	}
+
+	div.wd_quote.wd_quote-show_detail.wd_quote-onecol > div.wd_main-wrapper > div > div.wd_price > div.wd_quote-value-down {
+		left: -150px;
+		width: 300px;
+		top: 64px;
+		height: 3px;
+	}
+
+	div.wd_quote.wd_quote-show_detail.wd_quote-onecol > div.wd_main-wrapper > div > div.wd_price > div.wd_quote-value-up {
+		left: -150px;
+		width: 300px;
+		top: 64px;
+		height: 3px;
+	}
+	/************************ StockTicker Ends **********************/
+	/************************ Activity Feed Starts ******************/
+	.activity-feed-bg {
+		margin: 0 0 20px;
+		width: 100%;
+	}
+	/************************ Activity Feed Ends *********************/
+	/********************* Right Section CSS Ends *******************/
+	/************************ Home Page Ends ************************/
+	/*************** Corporate Services Starts *********************/
+	.corporate-services-cont .intro-text {
+		/*  max-height: inherit!important;*/
+	}
+
+	.corporate-services-cont .page-info {
+		margin-bottom: 0 !important;
+		margin-top: 0 !important;
+	}
+
+	.corporate-services {
+		margin-top: 0;
+	}
+
+	.corporate-services .gallery-item {
+		height: auto !important;
+	}
+
+	.corporate-services .cbs-picture-img-link {
+		float: none;
+		width: 100%;
+	}
+
+	.corporate-services .gallery-item img {
+		max-width: 72px;
+		position: static;
+		height: 60px;
+		padding: 0 10px 0 0;
+		vertical-align: top;
+	}
+
+	.corporate-services-cont .item-info .northspace4 {
+		margin-top: -3px !important;
+	}
+
+	.right-section .see-also {
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+	.corporate-services .gallery-item .item-info {
+		width: 70%;
+		display: inline-block;
+	}
+	/************* Corporate Services page CSS Ends ****************/
+	/************* Search Result page CSS Starts *******************/
+	.search-result-cont .contact-content .ms-srch-video-itemmain .ms-srch-item-video-path {
+		color: #5c707b;
+		font-size: 14px;
+		font-family: $font-regular;
+		width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.ms-srch-group-title {
+		display: none;
+	}
+
+	.ms-srch-video-itemthumbnail {
+		margin: 0;
+	}
+
+	.search-result-cont .contact-details .ms-srch-video-itemmain .ms-srch-item-summary {
+		color: #6e8794;
+		font-size: 14px;
+		font-family: $font-light;
+	}
+
+	.ms-srch-video-itemmain h3 {
+		padding-top: 0;
+	}
+
+	.ms-srch-video-itemmain h3 a {
+		color: #5c707b;
+		font-size: 14px;
+		font-family: $font-regular;
+	}
+
+	.ms-srch-video-itemmain {
+		padding-bottom: 0;
+	}
+
+	.search-result-cont .let-us-know {
+		display: none;
+	}
+
+	.search-result-cont .contact-details .ms-srch-item-body h3.ms-srch-ellipsis a.ms-srch-item-link {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 100%;
+	}
+
+	.ms-srch-item-icon {
+		margin: 0;
+	}
+
+	.search-result-cont .contact-details .ms-srch-item-title h3.ms-srch-ellipsis {
+		padding: 0;
+	}
+
+	.ms-srch-hover-outerContainer {
+		display: none !important;
+	}
+
+	.let-us-know,
+	.popular-searches {
+		display: none;
+	}
+
+	.search-result-cont .right-section {
+		display: none !important;
+	}
+
+	.ms-disabled {
+		color: #6e8794 !important;
+		font-size: 14px;
+		font-family: $font-light;
+		word-wrap: break-word;
+		padding-top: 10px;
+	}
+
+	#SearchBox #AutoCompContainer {
+		width: 245px;
+	}
+
+	.half-width .SearchResultPage .ms-srch-people-item #SearchUserInfoContainer {
+		width: 200px !important;
+	}
+
+	.contact-details .SearchResultPage .ms-srch-people-item {
+		padding: 10px !important;
+	}
+
+	.search-result-cont {
+		position: relative;
+	}
+
+	.search-result-cont .info-text-cont {
+		margin-bottom: 0 !important;
+	}
+
+	.search-result-cont .contact-content .inner-right-section {
+		float: none;
+		position: absolute;
+		top: 0;
+		width: 93%;
+	}
+
+	.search-result-cont .search-box-cont {
+		margin: 0 auto !important;
+		float: none;
+		width: 100%;
+		display: block;
+	}
+
+	.search-result-cont .main-search-cont .ms-srch-sb {
+		width: 92%!important;
+	}
+
+	.search-result-cont .main-search-cont .contact-content .ms-srch-sb-searchLink {
+		right: -8px !important;
+	}
+
+	.search-result-cont .contact-content .inner-left-section {
+		float: none;
+		width: 100%;
+	}
+
+	#UpScopeLinkTop {
+		display: block!important;
+		width: 100%!important;
+	}
+
+	.search-result-cont .refinement-btn {
+		display: block;
+		padding-left: 0;
+		text-indent: 10px;
+		width: 100%!important;
+		margin-top: 0 !important;
+	}
+
+	.search-result-cont .contact-list-cont .inner-left-section {
+		width: 100%;
+	}
+
+	.search-result-cont .ms-ref-ctrl {
+		margin-right: 0;
+		top: 0;
+	}
+
+	.search-result-cont .contact-content .half-width {
+		width: 100%;
+	}
+
+	.search-result-cont .contact-content .contact-details {
+		float: none;
+	}
+
+	.search-result-cont .contact-details .ms-webpart-cell-vertical,
+	.search-result-cont .contact-details .ms-webpart-chrome-vertical,
+	.search-result-cont .contact-details .ms-webpart-zone {
+		display: block;
+	}
+
+	.search-result-cont .contact-content .half-width .ms-srch-item {
+		width: auto;
+		margin: 0 !important;
+		padding: 10px !important;
+	}
+
+	.search-result-cont .contact-content .ms-srch-item-body {
+		padding: 5px 0 10px;
+	}
+
+	.search-result-cont .search-box-cont .sel-box {
+		top: -19px !important;
+	}
+
+	.search-result-cont .main-search-cont .iconRight {
+		position: absolute;
+		right: -33px;
+		top: 0;
+	}
+
+	.search-result-cont .main-search-cont .ms-srch-sb > input {
+		width: 50%!important;
+	}
+
+	.search-result-cont .inner-left-section #refinementPanel {
+		float: none !important;
+		width: 100%;
+	}
+
+	.search-result-cont .contact-content .ms-ref-refiner {
+		display: block;
+	}
+
+	.search-result-cont .inner-left-section #Container {
+		width: 100%;
+	}
+
+	.search-result-cont .inner-left-section .ms-ref-refinername {
+		display: block;
+		width: 100%!important;
+		padding-left: 0;
+		text-indent: 7px;
+	}
+
+	#OtherValue,
+	#SubmitValue,
+	.ms-ref-unsel-toggle,
+	.search-result-cont .inner-left-section .ms-ref-refiner #Value {
+		width: 100% !important;
+	}
+
+	.search-result-cont .contact-cont .inner-left-section .ms-ref-unsel-shortList .ms-ref-name {
+		width: 100%;
+	}
+
+	.search-result-cont .handle_label_section {
+		width: auto;
+	}
+
+	.search-result-cont .let-us-know {
+		margin-bottom: 20px;
+	}
+	/********************* Search Result Page CSS Ends ***********************/
+	/********************* Article Details Page CSS Starts ******************/
+	.ms-socialCommentItem .socialcomment-contents {
+		width: auto;
+	}
+
+	.ms-socialCommentItem .socialcomment-image {
+		width: 30px;
+		height: 30px;
+	}
+
+	.ms-socialCommentItem .socialcomment-IMPawn {
+		width: 10px;
+		height: 10px;
+	}
+
+	.ms-socialCommentItem .socialcomment-top {
+		width: 150px;
+	}
+
+	.ms-socialCommentItem .socialcomment-cmdlink {
+		width: 50px !important;
+	}
+
+	.article-block .comments-section .ms-webpart-chrome-fullWidth {
+		padding: 5px !important;
+	}
+
+	.ms-socialCommentItem {
+		font-family: $font-regular, Arial, Helvetica, san-serif;
+		font-size: 12px;
+		color: #71838d !important;
+	}
+
+	.ms-socialCommentItem .socialcomment-bottom {
+		padding-bottom: 0;
+	}
+
+	.article-block .ms-webpart-chrome-fullWidth .socialcomment-contents {
+		font-family: $font-regular, Arial, Helvetica, san-serif;
+		font-size: 12px;
+		color: #71838d !important;
+	}
+
+	.article-block .ms-webpart-chrome-fullWidth .socialcomment-cmdlink a {
+		color: #71838d !important;
+	}
+
+	.article-block .ms-webpart-chrome-fullWidth span {
+		color: #71838d !important;
+	}
+
+	.article-block .ms-socialCommentLoading input {
+		width: auto;
+		margin-top: 0 !important;
+		text-align: center !important;
+	}
+
+	.article-img-block {
+		float: none;
+		width: 100%;
+	}
+
+	.article-img-block img {
+		width: 300px;
+	}
+
+	.article-block .comments-section-btns .right-section {
+		width: 100px;
+		margin-right: 0;
+	}
+
+	.article-block .comments-section-btns {
+		height: 21px;
+	}
+
+	.article-img-block .ms-rtestate-field {
+		width: 100%;
+		padding-right: 0;
+		margin: 20px 0 15px;
+		height: 212px;
+	}
+
+	.article-content-block > h3 {
+		padding: 0;
+		margin-bottom: 15px;
+	}
+
+	.comments-sect-cont {
+		margin-bottom: 30px;
+	}
+
+	.article-block .comments-section {
+		width: 100%;
+	}
+
+	.article-block .ms-socialCommentEdit table td div {
+		width: 100% !important;
+	}
+
+	.article-img-block span[data-name="Page Field: Image Caption"] {
+		padding-bottom: 0!important;
+	}
+	/********************* Article Details Page CSS Ends ******************/
+	/********************* Article Archives Starts ************************/
+	.histogram_container,
+	.slider_extent_label_section,
+	.slideronly_container {
+		margin-left: 10px;
+	}
+
+	.article-news-block .inner-right-section .ms-srch-sbLarge > input {
+		width: 100% !important;
+	}
+
+	.article-news-block #SearchBox {
+		float: none;
+		top: 0;
+	}
+
+	.article-news-block #SearchBox .ms-srch-sbLarge {
+		display: block;
+	}
+
+	.article-news-block .contact-content .inner-right-section {
+		float: none;
+		position: absolute;
+		top: 0;
+		width: 98%;
+		padding: 0;
+	}
+
+	.article-news-block .page-info {
+		padding-top: 40px;
+	}
+
+	.article-news-block > div > div.page-info > div {
+		height: auto !important;
+		margin-bottom: 0;
+	}
+
+	.article-news-block .info-text-cont h4 {
+		margin-bottom: 0;
+	}
+
+	.article-news-block .contact-content .inner-left-section {
+		float: none;
+	}
+
+	.article-news-block .refinement-btn {
+		width: 100%!important;
+		padding-left: 0;
+		text-indent: 10px;
+		margin-top: 15px !important;
+	}
+
+	.article-news-block .inner-left-section #refinementPanel {
+		float: none;
+		width: 100%;
+	}
+
+	.article-news-block .ms-ref-ctrl {
+		margin-right: 0;
+	}
+
+	.article-news-block .contact-content .ms-ref-refiner {
+		display: block;
+	}
+
+	.article-news-block .inner-left-section #Container {
+		width: 100%;
+	}
+
+	.article-news-block .inner-left-section .ms-ref-refinername {
+		display: block;
+		width: 100%!important;
+		padding-left: 0;
+		text-indent: 6px;
+	}
+
+	.article-news-block .half-width .main-article {
+		width: 100%!important;
+	}
+
+	.article-news-block .article-news-img {
+		float: left;
+		margin-right: 10px;
+		width: 73px;
+		height: 55px;
+		overflow: hidden;
+	}
+
+	.article-news-block .article-news-img img {
+		height: auto;
+		width: 100%;
+	}
+
+	.article-news-block .article-news-details .date {
+		margin: 0 !important;
+	}
+
+	.article-news-block .article-news-details p.wire-text {
+		margin: 10px 0 0 0 !important;
+		float: left;
+		width: 100%;
+	}
+
+	.article-news-block .article-news-details .category {
+		clear: both;
+		padding: 5px 0 0;
+	}
+
+	.article-news-block .main-article {
+		margin-bottom: 15px;
+	}
+
+	.article-news-block+.right-section .popular-searches {
+		margin-bottom: 20px;
+		display: none;
+	}
+
+	.article-news-block .contact-content .half-width {
+		width: 100% !important;
+		padding-top: 0 !important;
+		padding-left: 0 !important;
+	}
+
+	.article-news-block {
+		position: relative;
+	}
+
+	.ajax__multi_slider_default .handle_noforcepressed,
+	.ajax__multi_slider_default .inner_rail_horizontal,
+	.slider_tick_active,
+	.slider_tick_inactive {
+		z-index: 0;
+	}
+
+	.article-news-block .inner-left-section .ms-ref-refiner #Value {
+		width: 100%!important;
+	}
+
+	.ms-srch-result #PagingLink a,
+	.ms-srch-result #PagingSelf a {
+		top: 3px;
+	}
+
+	.Contact-Refiner-Less,
+	.contact-content .Contact-Refiner-More {
+		padding-left: 10px;
+	}
+	/******************** Article Archives CSS Ends ***********************/
+	/******************** Imaging Components Starts  *********************/
+	.notice-scroll > a > img {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+
+	.imaging-component-cont .management-team-cont .custom-scroll {
+		height: 366px !important;
+	}
+
+	.management-team-cont.management-location .custom-scroll {
+		height: 233px !important;
+	}
+
+	.bread-crumb-cont {
+		display: none;
+	}
+
+	.page-info .main-img {
+		float: none;
+		margin-right: 0;
+		overflow: hidden;
+		height: 240px;
+	}
+
+	.imaging-component-cont .slides-container {
+		width: 300px;
+		height: 212px;
+	}
+
+	.imaging-component-cont .slides-container .slide .slider-image {
+		/*width: auto;
+	    height: auto;
+	    max-width: 23em;
+	    min-width: 23em;
+	    max-height: 19em;
+	    min-height: 19em;*/
+		width: 300px;
+		height: 212px;
+	}
+
+	.imaging-component-cont .page-info {
+		display: block;
+	}
+
+	.imaging-component-cont .page-info .slides-container .bx-wrapper .bx-next {
+		right: 0;
+	}
+
+	.imaging-component-cont .page-info .action-btns {
+		right: 52px;
+	}
+
+	.slides-default-img .ms-srch-result-noResults {
+		width: 100%;
+		padding: 0;
+	}
+
+	.imaging-component-cont .page-info {
+		width: 100%;
+	}
+
+	.imaging-component-cont .info-text-cont h4 {
+		margin-top: 10px;
+	}
+
+	.imaging-component-cont .page-info .info-text-cont {
+		float: none;
+		width: 100%;
+	}
+
+	.imaging-component-cont .imaging-component {
+		margin-top: 20px;
+	}
+
+	.imaging-component-cont .todays-varian-item {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	.imaging-component-cont .imaging-component .varian-people-bg {
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+
+	.imaging-component-cont .varian-people-bg li {
+		width: 100%!important;
+	}
+
+	.imaging-component-cont .varian-people-bg li > div {
+		width: 68%;
+	}
+
+	.imaging-component-cont .imaging-component .events-bg {
+		width: 100%;
+		float: none;
+	}
+
+	.imaging-component-cont .todays-varian-item .link {
+		margin-right: 9px;
+	}
+
+	.imaging-component-cont .events-bg li a.cbs-Line1Link {
+		width: 78%;
+	}
+
+	.imaging-component-cont .imaging-component .notices-bg {
+		width: 100%!important;
+		margin-left: 0;
+	}
+
+	.imaging-component-cont #VMSSire-site-stories.vmsNet-wire-cont {
+		width: 100%;
+	}
+
+	.tree-view-cont {
+		width: 100%;
+	}
+
+	.team_org {
+		float: none;
+		width: 100%;
+	}
+
+	.team_org .todays-varian-item {
+		width: 100%;
+		margin-bottom: 0!important;
+	}
+
+	.team_org .org-char-cont {
+		margin: 7px 0 13px!important !important;
+	}
+
+	.team_org .org-char-cont h3 {
+		padding-top: 0;
+	}
+
+	.how-do-i .answer,
+	.how-do-i .common-select {
+		width: 100%;
+		padding: 0;
+	}
+
+	.imaging-component .how-do-i {
+		padding: 0;
+		min-height: 103px;
+	}
+
+	.how-do-i .webpart-content section {
+		padding: 10px;
+		min-height: 83px;
+	}
+
+	.how-do-i .webpart-content {
+		min-height: 103px;
+	}
+
+	.page-width .right-section {
+		padding-top: 20px;
+		padding-left: 0;
+	}
+
+	.tree-view-cont .tree-view {
+		width: 100%!important;
+	}
+
+	.imaging-component .spot-light-block {
+		width: auto;
+		height: 100%;
+	}
+
+	.imaging-component .spot-light-block > li {
+		height: 100%;
+	}
+
+	.spot-light-block .only-text {
+		height: 103px;
+		/*padding:5px 10px 5px 10px;*/
+	}
+
+	.spot-light-block .only-text center {
+		height: 100%;
+	}
+	/*************************** Imaging Components CSS Ends ********************************/
+	/*************************** Community Landing Page CSS Starts **************************/
+	.how-do-i .heading {
+		width: 70%;
+		margin-left: 28px;
+		line-height: 16px;
+	}
+
+	.imaging-component .featured-application {
+		margin-bottom: 30px;
+		margin-top: 0;
+		width: auto;
+	}
+
+	.imaging-component .tab_contents_container.tab-content {
+		display: none;
+	}
+
+	.community-landing-page .newsfeed {
+		width: 100%!important;
+		margin-left: 0;
+	}
+
+	.community-landing-page .spot-light-block {
+		width: 100%;
+	}
+
+	.community-landing-page .spot-light-block > li {
+		height: 150px;
+	}
+
+	.community-landing-page .spot-light-block .only-text {
+		height: 140px;
+		padding: 5px 10px;
+	}
+
+	.community-landing-page .spot-light-block .only-text > a > img {
+		width: 100%;
+		height: 100%;
+	}
+
+	#tabs_container {
+		display: none;
+	}
+
+	.VMS-people .varian-people-continer {
+		height: auto;
+	}
+
+	.community-landing-page .VMS-people .webpart-content .custom-scroll {
+		height: 275px!important;
+	}
+
+	.VMS-people li {
+		margin: 0 0 6px;
+	}
+	/********************* Community Landing Page CSS Ends *************/
+	/********************* News Landing Page CSS Starts *************/
+	.landing-news .imaging-component .featured-news-stories {
+		margin-bottom: 10px;
+	}
+
+	.landing-news .ceo-update-block .wire-description {
+		width: 169px !important;
+		padding: 5px;
+	}
+
+	.news-landing-page .news-main .news-img-block {
+		float: none;
+		width: 220px;
+		margin: 0 0 20px 10px;
+	}
+
+	.news-landing-page .feature-news-title {
+		width: 100%;
+		position: relative;
+	}
+
+	.news-landing-page .feature-news-title span:nth-child(2) {
+		position: absolute;
+	}
+
+	.news-landing-page .feature-news-title span {
+		width: 50%;
+	}
+
+	.news-landing-page .feature-news-title span a {
+		margin-left: 7px;
+		margin-top: 3px;
+		display: inline-block;
+	}
+
+	.featured-news-stories .ms-webpart-cell-vertical,
+	.featured-news-stories .ms-webpart-chrome-vertical,
+	.featured-news-stories .ms-webpart-zone {
+		display: block;
+	}
+
+	.landing-news .imaging-component .vmsNet-wire-cont {
+		width: 100% !important;
+		margin: 0 0 25px;
+	}
+
+	.news-landing-page .ceo-update-block {
+		margin-bottom: 25px;
+	}
+
+	.news-landing-page .spot-light-block {
+		clear: both;
+	}
+
+	.imaging-component.location-section-cont.news-landing-page .notices-bg {
+		width: 100%!important;
+		float: none;
+		margin-top: 10px;
+	}
+
+	.news-landing-page .activity-feed-bg {
+		width: 100%;
+		float: none;
+		margin-top: 20px;
+	}
+
+	.news-landing-page .how-do-i {
+		margin-top: 20px!important;
+	}
+
+	.landing-news .var-bg {
+		margin: 5px 0 15px;
+	}
+	/********************* News Landing Page CSS Ends *************/
+	/********************* Baden - Company Loaction Starts ********/
+	.location-section-cont .weather-conditions .custom-scroll {
+		padding: 0;
+	}
+
+	.location-section-cont .quick-link-cont .ms-webpart-zone h2 {
+		padding-left: 0;
+	}
+
+	.location-section-cont .visitor-information .ms-webpart-zone h2 {
+		padding-left: 0;
+	}
+
+	.location-section-cont .weather-conditions {
+		margin-left: 0;
+		padding-top: 15px;
+		margin-bottom: 0;
+	}
+
+	.location-section-cont .weather-conditions .webpart-content {
+		height: auto;
+	}
+
+	.location-section-cont .weather-conditions .title {
+		font-family: $font-regular, Arial, Helvetica, sans-serif;
+	}
+
+	.weather-content .weather-icon {
+		width: 60px;
+		height: 50px;
+	}
+
+	.imaging-component.location-section-cont .notices-bg {
+		float: none;
+	}
+
+	.location-cont .map-cont {
+		width: auto;
+	}
+
+	.address {
+		padding-top: 10px;
+	}
+	/********************* Baden - Company Loaction Ends ********/
+	/********************* Events - (Calender) Starts **********/
+	.bread-crumb-cont {
+		display: none;
+	}
+
+	#CalendarContainer select {
+		position: relative;
+		top: 28px;
+		color: #b0c1cb;
+		border: none;
+		background: none;
+	}
+
+	#CalendarContainer tr th.header {
+		margin: 0 0 20px 0 !important;
+	}
+
+	#CalendarContainer .jq-calendar-wrapper {
+		margin: 0 !important;
+		width: 300px;
+		overflow: auto;
+	}
+
+	#CalendarContainer .jq-calendar-wrapper .ui-body-c span {
+		display: none;
+	}
+
+	#CalendarContainer table td {
+		height: 40px;
+		width: 40px;
+		padding: 0;
+		text-align: center;
+	}
+
+	#CalendarContainer table td.ui-body-c a.ui-btn {
+		font-size: 14px;
+		font-family: $font-light, Arial, Helvetica, sans-serif;
+		position: static!important;
+		padding: 0!important !important;
+	}
+
+	#CalendarContainer table thead tr:first-child th:first-child.ui-bar-c span {
+		font-size: 12px;
+		font-family: $font-semibold, Arial, Helvetica, sans-serif;
+		color: #5c707b;
+	}
+
+	#CalendarContainer select {
+		font-size: 12px;
+		font-family: $font-regular, Arial, Helvetica, sans-serif;
+		color: #86a3b3;
+		width: 98px;
+	}
+
+	#CalendarContainer table th.ui-bar-c span {
+		font-size: 14px;
+		font-family: $font-light, Arial, Helvetica, sans-serif;
+		color: #c7d3da;
+	}
+
+	#CalendarContainer .jq-calendar-wrapper > table {
+		width: 99%;
+	}
+
+	#CalendarContainer .jq-calendar-wrapper > table .select-td-today {
+		background: #6e8794;
+	}
+
+	#CalendarContainer table td.select-td-today a.ui-btn {
+		color: #fff;
+	}
+
+	#CalendarContainer ul[data-role="listview"] {
+		background: #6e8794;
+		margin-top: 10px;
+		display: block;
+	}
+
+	#CalendarContainer ul[data-role="listview"] li {
+		padding: 0 10px;
+		border-top: 1px solid #aeb9bf;
+		width: 87%;
+		margin: 0 auto;
+		padding: 10px 0;
+	}
+
+	#CalendarContainer ul[data-role="listview"] li a {
+		color: #fff;
+		font-family: $font-regular, Arial, Helvetica, sans-serif;
+		float: right;
+		width: 80%;
+	}
+
+	#CalendarContainer ul[data-role="listview"] li .event-time {
+		color: #fff;
+		font-family: $font-regular, Arial, Helvetica, sans-serif;
+		float: left;
+		width: 20%;
+		font-size: 10px;
+	}
+
+	#CalendarContainer ul[data-role="listview"] li:first-child {
+		border-top: none;
+	}
+	/******************* Events - (Calender) Ends  ****************/
+	/******************* Contact page CSS Starts ******************/
+	.contact-cont {
+		position: relative;
+	}
+
+	.contact-content .inner-right-section {
+		float: none;
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.contact-content .inner-left-section {
+		float: none;
+	}
+
+	.contact-list-cont .inner-left-section {
+		width: 100%;
+		clear: both;
+		float: none;
+	}
+
+	.contact-details .ms-srch-people-outerContainer .ms-srch-people-item #UserPersonaContainer {
+		width: 69px !important;
+		height: 60px !important;
+	}
+
+	.half-width .ms-srch-people-outerContainer .ms-srch-people-item #UserInfoContainer {
+		float: left !important;
+		width: 225px !important;
+	}
+
+	.ms-srch-people-item #UserPersona {
+		height: 60px;
+	}
+
+	.contact-content .half-width {
+		width: 100%!important;
+		float: none;
+		padding-left: 0;
+	}
+
+	.contact-content .contact-details .ms-webpart-zone {
+		display: block;
+	}
+
+	.contact-content .contact-details .ms-webpart-cell-vertical {
+		display: block;
+	}
+
+	.contact-content .contact-details .ms-webpart-chrome-vertical {
+		display: block;
+	}
+
+	.contact-details .ms-srch-people-outerContainer {
+		float: none;
+		width: 100%;
+		display: block;
+		margin: 0 !important;
+	}
+
+	.contact-details .ms-srch-people-outerContainer .ms-srch-people-item {
+		width: auto;
+		padding: 0;
+	}
+
+	.contact-content .refinement-btn {
+		display: block;
+		width: 97%;
+		margin-top: 10px !important;
+	}
+
+	.contact-content .inner-left-section #refinementPanel {
+		float: none !important;
+		width: 100%!important;
+	}
+
+	.inner-left-section .ms-ref-refiner #Value {
+		width: auto !important;
+	}
+
+	.contact-cont .inner-left-section .ms-ref-unsel-shortList .ms-ref-name {
+		width: auto !important;
+	}
+
+	.contact-content .ms-ref-ctrl {
+		margin-right: 0;
+	}
+
+	.contact-content .inner-right-section.right-search .ms-webpart-cell-vertical,
+	.contact-content .inner-right-section.right-search .ms-webpart-chrome-vertical,
+	.contact-content .inner-right-section.right-search .ms-webpart-zone {
+		display: block;
+	}
+
+	.contact-content .inner-right-section.right-search .ms-floatLeft {
+		float: none;
+		position: absolute!important;
+		width: 100%;
+		top: 138px;
+	}
+
+	.contact-content .inner-right-section.right-search .ms-srch-sbLarge {
+		display: block;
+	}
+
+	.contact-content .inner-right-section.right-search .ms-srch-sbLarge {
+		width: 87%;
+	}
+
+	.contact-content .inner-right-section.right-search .ms-srch-sbLarge > input {
+		width: 99%;
+	}
+
+	.contact-content .inner-contact-row {
+		/*position:relative*/
+	}
+
+	.contact-cont .info-text-cont {
+		width: 100% !important;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	.contact-cont .custom-scroll {
+		padding: 0 10px 0 0 !important;
+	}
+
+	.contact-cont .intro-text {
+		width: 100% !important;
+	}
+
+	.contact-content .ms-ref-refiner {
+		display: block;
+	}
+
+	.inner-left-section #Container {
+		width: 100%;
+	}
+
+	.inner-left-section .ms-ref-refinername {
+		display: block;
+		width: 97% !important;
+	}
+
+	.contact-content .Contact-Refiner-Less,
+	.contact-content .Contact-Refiner-More {
+		float: none;
+	}
+
+	.contact-content .full-width .ms-srch-people-outerContainer .ms-srch-people-item #UserInfoContainer {
+		float: left !important;
+		width: calc(100% - 77px) !important;
+	}
+
+	.ms-srch-pagingNext {
+		left: 0;
+	}
+	/********************* Contact Page CSS Ends **************************/
+	/********************* Error Page Starts ******************************/
+	.error-page {
+		width: 100%;
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	.vmsnet-contentBox .error-page .error-content {
+		width: 100%;
+	}
+	/********************* Error Page Ends ******************************/
+	/********************* Buisness Unit Starts ************************/
+	.business-unit .cbs-picture-img-link {
+		width: 100%;
+		float: none;
+		display: block;
+	}
+	/******This css applicable for the content added by Ian started*******/
+	.notices-bg div.gallery.business-unit a {
+		height: auto;
+	}
+
+	.notices-bg div.gallery.business-unit .cbs-picture-img-link {
+		display: inline-block;
+	}
+
+	#Banner {
+		width: 100%;
+	}
+
+	.imaging-component-cont .imaging-component .notices-bg div.colm {
+		/*margin:0 5px 0px 0;*/
+		margin: 0;
+		width: 100% !important;
+	}
+
+	.imaging-component-cont .imaging-component .notices-bg div.notice-scroll {}
+
+	.notices-bg .colm ul li {
+		padding-right: 0;
+	}
+
+	.org-char-cont h3 {
+		width: 300px;
+	}
+
+	.org-char-cont .ms-rtestate-field {
+		width: 300px !important;
+	}
+
+	.org-char-cont .colm {
+		width: 280px !important;
+	}
+
+	.org-char-cont .ms-webpartzone-cell {
+		padding: 0;
+	}
+
+	.org-char-cont .ms-webpartzone-cell .ms-WPBorderBorderOnly {
+		padding-top: 0;
+	}
+
+	.org-char-cont .colm ul {
+		margin-left: 0;
+	}
+
+	.org-char-cont .ms-webpartzone-cell .ms-webpart-titleText {
+		padding-left: 10px;
+	}
+
+	.org-char-cont .ms-webpart-chrome-title {
+		margin-bottom: -10px;
+	}
+
+	.ms-webpart-zone h2 {
+		padding-left: 10px;
+	}
+
+	.org-char-cont .collapsible .collapsible_content p,
+	.org-char-cont p,
+	.org-char-cont ul > li {
+		/*margin: 5px 10px 5px 10px;*/
+	}
+	/******Ended*******/
+	.business-unit-cont .ms-webpart-cell-vertical,
+	.business-unit-cont .ms-webpart-chrome-vertical,
+	.business-unit-cont .ms-webpart-zone {
+		display: block;
+	}
+
+	.business-unit .gallery-item img {
+		max-width: 72px;
+		width: 72px !important;
+		height: auto;
+		margin-bottom: 0;
+		position: static;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.business-unit .gallery-item .item-title {
+		margin-top: -3px;
+		padding-top: 0 !important;
+		padding-bottom: 0;
+	}
+
+	.business-unit .gallery-item .item-content {
+		height: auto !important;
+	}
+
+	.business-unit-cont {
+		margin-bottom: 20px;
+	}
+
+	.related-news .text {
+		margin-bottom: 10px;
+	}
+	/**************** Buisness Unit Ends **********************/
+	/**************** Content Repository Starts **************/
+	.content-repo-container {
+		max-width: 100%!important;
+	}
+	/*************** Content Repository Ends ****************/
+	/*************** Image Gallery Starts ******************/
+	.photo-gallery {
+		width: 100%;
+		overflow: auto;
+	}
+
+	.photo-gallery .ms-tileview-tile-root {
+		width: 147px !important;
+		height: 107px !important;
+		margin: 2px 0 0 2px;
+	}
+
+	.photo-gallery .ms-tileview-tile-inner {
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	.photo-gallery .ms-tileview-tile-content {
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	.photo-gallery .ms-tileview-tile-content a {
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+
+	.photo-gallery .ms-positionRelative {
+		width: 100% !important;
+		height: 100% !important;
+		max-width: 100%;
+	}
+
+	.photo-gallery .ms-tileview-tile-detailsBox {
+		/* width: 140px !important;
+	    height: 100px !important;
+	    padding: 5px;*/
+		display: none;
+	}
+
+	.photo-gallery .ms-tileview-tile-detailsListMedium {
+		height: 100%;
+	}
+
+	.photo-gallery .ms-tileview-tile-selectionBox {
+		left: 0;
+	}
+
+	.photo-gallery table.ms-listviewtable tr td > div {
+		position: static;
+		width: 100%;
+	}
+	/********************** Image Gallery Ends **********************/
+	.home-features-stories-cont {}
+
+	.home .todays-varian-block {
+		margin-top: 5px;
+	}
+
+	.page-info h1 {
+		margin-bottom: 15px;
+	}
+
+	.ms-srch-result-groups {
+		margin-bottom: 0;
+	}
+
+	#Paging.ms-srch-Paging {
+		margin: 30px 0 0;
+	}
+
+	.landing-news .imaging-component-cont .info-text-cont h4 {
+		margin-top: -6px;
+	}
+
+	.landing-news .vmsNet-wire-cont .ms-webpart-titleText {
+		font-size: 14px;
+		padding-bottom: 10px;
+	}
+	/****************** After Deployment CSS Fixes Start Here *****************/
+	.article-content-block .ms-rtestate-field ul {
+		margin-left: 0;
+	}
+
+	.generic-layout .box.full-width .compass {
+		width: 300px;
+	}
+
+	.generic-layout .box.full-width .compass ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	.generic-layout .box.full-width .compass ul li {
+		margin: 4px 4px 4px 8px;
+		padding: 0;
+	}
+
+	.generic-layout .box.full-width .compass .colm {
+		width: 100%;
+		margin: 0;
+	}
+
+	.generic-layout .vertical-container {
+		margin-left: 0;
+	}
+
+	.generic-layout .vertical-container .box.half-width {
+		padding-left: 0;
+	}
+
+	.generic-layout .box.half-width {
+		width: 300px;
+	}
+
+	.generic-layout .half-width.right-box {
+		float: right;
+	}
+
+	div.box.box-type2.half-width.left-box.auto-section {
+		padding-right: 0;
+	}
+
+	.home-features-stories-cont {
+		min-height: 230px;
+	}
+
+	.header .search-box-cont #SearchBox {
+		width: 100%;
+		float: none;
+	}
+	/****************** After Deployment CSS Fixes Ends Here *******************/
+}
+/********************************************** 320px Wrapper Ends *****************************************/
+/********************************************** 568px Wrapper Starts *****************************************/
+@media only screen and (max-width: 719px) {
+	/******************* Header Starts ****************/
+	/******************* Welcome Control Starts *******/
+	.header .punch-line {
+		display: none;
+	}
+
+	.header .user-cont {
+		height: 40px;
+	}
+
+	.header {
+		position: absolute;
+		width: 100%;
+		z-index: 100;
+	}
+
+	#s4-bodyContainer {
+		padding-top: 40px;
+	}
+
+	#pageStatusBar {
+		margin-bottom: 0!important;
+		position: relative!important;
+		z-index: 99;
+	}
+
+	#ms-designer-ribbon {
+		display: none!important;
+	}
+
+	.header .logo-mobile {
+		background: url("../images/vms-logo-mobile.png") no-repeat center center;
+		width: 98px;
+		height: 19px;
+		float: left;
+		margin: 10px 0 0 10px;
+		display: block;
+		background-size: 100%;
+	}
+
+	.header .top-buttons {
+		float: right;
+		margin: 12px 0 0;
+		display: block;
+	}
+
+	.header .top-buttons li {
+		float: left;
+		margin: 0 20px 0 0;
+	}
+
+	.header .top-buttons li a:active,
+	.header .top-buttons li:hover a {
+		opacity: 0.8;
+	}
+
+	.contact-content .search-box-cont {
+		float: none !important;
+	}
+
+	.content-repo-container {
+		max-width: 540px;
+	}
+
+	.search-box-cont .sel-box {
+		top: 0;
+	}
+
+	.main-search-cont .iconRight {
+		position: absolute;
+		right: -33px;
+		top: -1px;
+	}
+	/******* Search Box Starts ***********/
+	/*.header .main-search-cont {
+		display:none;
+		padding-top:25px;
+		height: 60px;
+		width:100%;
+		position: absolute;
+		z-index:11;
+	}	*/
+	.header .main-search-cont {
+		display: block;
+		float: none;
+		position: absolute;
+		width: 100%;
+		height: auto;
+		margin: 0;
+		top: -9999px;
+		z-index: 11;
+		padding: 10px;
+		background: #97a1a7;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		opacity: 0;
+		-webkit-transform: translate3d(0, 0, 0);
+		        transform: translate3d(0, 0, 0);
+		-webkit-transition: opacity 300ms ease-out 10ms;
+		transition: opacity 300ms ease-out 10ms;
+	}
+
+	.header .main-search-cont.open {
+		-webkit-transform: translate3d(0, 0, 0);
+		        transform: translate3d(0, 0, 0);
+		height: 60px;
+		margin: 0;
+		opacity: 1;
+		top: 40px;
+	}
+
+	.header .main-search-cont.transitioning {
+		top: 40px;
+	}
+	/**Width Changed from 85 to 100*/
+	.header .search-box-cont {
+		display: block;
+		float: none;
+		margin: 6px auto 0;
+		width: 85%;
+		opacity: 0;
+		-webkit-transform: translate3d(0, 10px, 0);
+		        transform: translate3d(0, 10px, 0);
+		-webkit-transition: 300ms ease-in-out 300ms;
+		transition: 300ms ease-in-out 300ms;
+	}
+
+	.header .main-search-cont.open .search-box-cont {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		        transform: translate3d(0, 0, 0);
+	}
+
+	.header .main-search-cont .page-width {
+		padding: 0;
+	}
+
+	.header .main-search-cont .ms-srch-sb {
+		width: 100%!important;
+		margin: 0;
+		position: relative;
+	}
+
+	.main-search-cont .ms-srch-sb-searchLink {
+		position: static;
+	}
+
+	#SearchBox .ms-srch-sb-link {
+		display: none;
+	}
+	/******* Search Box Ends ***********/
+	.header .mega-menu-cont {
+		display: block;
+		float: none;
+		position: absolute;
+		width: 100%;
+		height: auto;
+		margin: 0;
+		top: -9999px;
+		z-index: 11;
+		padding: 0;
+		background: #97a1a7;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		opacity: 0;
+		-webkit-transform: translate3d(0, 0, 0);
+		        transform: translate3d(0, 0, 0);
+		-webkit-transition: opacity 300ms ease-out;
+		transition: opacity 300ms ease-out;
+	}
+
+	.header .mega-menu-cont.open {
+		-webkit-transform: translate3d(0, 0, 0);
+		        transform: translate3d(0, 0, 0);
+		height: auto;
+		margin: 0;
+		opacity: 1;
+		top: 40px;
+	}
+
+	.header .mega-menu-cont.transitioning {
+		top: 40px;
+	}
+
+	.header .company-logo {
+		display: none;
+	}
+
+	.header .search-box-cont #SearchOptions {
+		display: none;
+	}
+
+	.header .mega-menu-content #main-nav .home {
+		display: none;
+	}
+
+	.header .top-buttons .menu a {
+		display: block;
+		width: 19px;
+		height: 17px;
+		/*background: url("../images/menu-icon-mobile.png") no-repeat center center;*/
+		background: none;
+		background-size: 93%;
+		position: relative;
+		cursor: pointer;
+	}
+
+	.header .top-buttons .menu a:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.header .top-buttons .menu a::after {
+		font-family: $font-awesome;
+		content: "\f0c9";
+		color: #fff;
+		font-size: 20px;
+		position: absolute;
+		top: -2px;
+		left: 0;
+		font-weight: bold;
+	}
+
+	.header .top-buttons .search a {
+		display: block;
+		/*background: url("../images/search-icon-mobile.png") no-repeat center center;*/
+		background: none;
+		width: 19px;
+		height: 17px;
+		background-size: 93%;
+		color: #fff;
+		position: relative;
+		cursor: pointer;
+	}
+
+	.header .top-buttons .search a:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.header .top-buttons .search a::after {
+		font-family: $font-awesome;
+		content: "\f002";
+		color: #fff;
+		font-size: 16px;
+		position: absolute;
+		top: 0;
+		left: 1px;
+		font-weight: bold;
+	}
+
+	.header .top-buttons .user a {
+		display: block;
+		/*background: url("../images/user-icon-mobile.png") no-repeat center center;*/
+		background: none;
+		width: 19px;
+		height: 17px;
+		background-size: 93%;
+		position: relative;
+		cursor: pointer;
+	}
+
+	.header .top-buttons .user a:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.header .top-buttons .user a::after {
+		font-family: $font-awesome;
+		content: "\f007";
+		color: #fff;
+		font-size: 20px;
+		position: absolute;
+		top: -2px;
+		left: 0;
+		/*font-weight: bold;*/
+	}
+
+	.header .mega-menu-content ul#main-nav > li > a {
+		padding: 10px 20px;
+		font-size: 18px;
+		font-family: $font-semibold;
+		font-weight: normal;
+		-webkit-transform: translate3d(0, 10px, 0);
+		        transform: translate3d(0, 10px, 0);
+		opacity: 0;
+		-webkit-transition: 300ms ease-out 300ms;
+		transition: 300ms ease-out 300ms;
+	}
+
+	.header .mega-menu-cont.open .mega-menu-content ul#main-nav > li > a {
+		-webkit-transform: translate3d(0, 0, 0);
+		        transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+
+	.mega-menu-content ul#main-nav > li > a,
+	.mega-menu-content ul#main-nav > li > a.active {
+		background: none;
+	}
+
+	.header .mega-menu-cont .page-width {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.header .mega-menu-cont .dropDownCont {
+		position: static;
+		width: 100%;
+		opacity: 1;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.header .mega-menu-cont li.open .dropDownCont {
+		height: auto;
+	}
+
+	.mega-menu-content ul#main-nav > li > a.active {
+		background: none;
+	}
+	/*#main-nav li:hover #org-menu,#main-nav li:hover #news-menu,#main-nav li:hover #career-menu,#main-nav li:hover #resources-menu,#main-nav li:hover #community-menu {
+		display: none;
+	}*/
+	.header .mega-menu-cont .submenu {
+		position: static;
+		padding: 20px;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		opacity: 1!important;
+		height: auto!important;
+	}
+
+	.header .mega-menu-content ul#main-nav > li {
+		float: none;
+		/*border-bottom: 2px solid #bdc6cc;*/
+		padding-left: 0;
+	}
+	/******* Welcome User Control Starts ************/
+	.header .user-control-item .my-site-cont {}
+
+	.header .user-cont {
+		position: relative;
+		overflow: visible;
+	}
+
+	.header .user-cont .page-width {
+		padding: 0;
+		width: 100%;
+	}
+
+	.header .user-control {
+		position: absolute;
+		top: 45px;
+		z-index: 20;
+		left: 10px;
+		display: none;
+	}
+
+	.header .user-control .arrow-down,
+	.header .user-control .arrow-up {
+		display: none;
+	}
+
+	.header .user-control-panel {
+		display: block;
+		float: none;
+		position: absolute;
+		width: 100%;
+		height: 110px;
+		margin: 0;
+		top: -9999px;
+		z-index: 11;
+		padding: 10px;
+		background: #97a1a7;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		opacity: 0;
+		-webkit-transform: translate3d(0, 0, 0);
+		        transform: translate3d(0, 0, 0);
+		-webkit-transition: opacity 300ms ease-out;
+		transition: opacity 300ms ease-out;
+	}
+
+	.header .user-control-panel.open {
+		-webkit-transform: translate3d(0, 0, 0);
+		        transform: translate3d(0, 0, 0);
+		height: 110px;
+		margin: 0;
+		opacity: 1;
+		top: 40px;
+		-webkit-transition: opacity 300ms ease-out 10ms;
+		transition: opacity 300ms ease-out 10ms;
+	}
+
+	.user-control-item .sign-out {
+		background: none;
+		text-align: left;
+	}
+
+	.header .user-control-item {
+		/*float: left;*/
+		margin: 17px 0 0;
+	}
+
+	.header .sign-out-cont span.body-cont {
+		margin: 7px 0 0;
+	}
+	/*********** Welcome User Control Ends*************/
+	.corporate-services .gallery-item {
+		height: auto;
+		padding: 0 0 10px 0 !important;
+	}
+
+	.corporate-services {
+		margin-left: 0 !important;
+	}
+
+	.search-box-cont #SearchBox .ms-srch-sb > .ms-srch-sb-navLink {
+		float: right;
+		margin-right: 30px;
+	}
+	/*** Header Ends ***/
+	.vmsNet-wire-cont li .wire-description {
+		width: 173px !important;
+		padding: 5px;
+	}
+
+	.home .var-bg {
+		margin: 0 0 10px;
+	}
+
+	.featured-app-slider li,
+	.featured-app-slider li:first-child {
+		margin: 0;
+	}
+
+	.featured-app-slider li {
+		width: 160px;
+	}
+	/****************** Generic Layout HR CSS Start Here **********************/
+	.article-content-block > h3 {
+		padding: 0;
+	}
+
+	#resources_table {
+		width: 300px;
+	}
+
+	.resources_box_image_frame {
+		width: 100%;
+	}
+
+	.resources_box_image_frame IMG {
+		width: 100%;
+	}
+
+	IMG.smallerImg {
+		width: 130px;
+	}
+
+	.resources_box {
+		margin: 0 0 15px;
+		width: 100%;
+	}
+
+	#resource_views {
+		margin-left: 0;
+		padding: 0 0 10px;
+	}
+
+	.resources_box_links {
+		margin: 0 0 0 10px;
+	}
+
+	.generic-webpart-zones ul {
+		margin: 0 3px 0 20px;
+	}
+
+	.breadcumb-main-menu > li:last-child > a {
+		padding: 5px 0;
+	}
+
+	.ms-webpartzone-cell {
+		margin: auto auto 10px;
+	}
+
+	.tree-view-cont {
+		width: 100%;
+	}
+
+	.tree-view-cont .tree-view {
+		width: 100% !important;
+	}
+	/****************** Generic Layout HR CSS Start Here **********************/
+}
+/**************************************************** 568px Wrapper Ends **************************************************************/
+/********************************************** min-width: 568px and max-width: 719px Wrapper Starts **********************************/
+@media only screen and (min-width: 568px) and (max-width: 719px) {
+	/********This css applicable for the content added by Ian started**********/
+	.header .search-box-cont #SearchBox {
+		float: none;
+		margin: 0 auto;
+	}
+
+	#SearchBox #AutoCompContainer {
+		width: 278px;
+	}
+
+	.notices-bg div.gallery.business-unit figure.gallery-item .item-content {
+		height: auto;
+	}
+
+	#Banner {
+		width: 100%;
+	}
+
+	.imaging-component-cont .imaging-component .notices-bg div.colm {
+		width: 243px !important;
+		margin: 0 !important;
+	}
+
+	.notices-bg .ms-rtestate-field ul {
+		margin-left: 15px;
+		padding: 8px 0;
+	}
+
+	.org-char-cont .ms-rtestate-field {
+		width: 538px;
+	}
+
+	.org-char-cont .ms-webpartzone-cell {
+		padding: 0;
+	}
+
+	.org-char-cont .ms-webpartzone-cell .ms-webpart-titleText {
+		padding-left: 10px;
+	}
+
+	.org-char-cont .colm {
+		width: 518px !important;
+	}
+
+	.page-info .main-img {
+		margin-right: 15px;
+		margin-bottom: 10px;
+	}
+
+	.org-char-cont .ms-webpartzone-cell .ms-WPBorderBorderOnly {
+		padding: 0 0 0 10px;
+	}
+	/********This css applicable for the content added by Ian Ended****/
+	/**************Welcome Menu Starts**************/
+	.header .user-control-panel .my-profile-cont,
+	.header .user-control-panel .my-site-cont {
+		width: 23%;
+	}
+
+	.header .user-control-panel .my-VMSNet-cont {
+		width: 37%;
+	}
+
+	.header .user-control-panel .sign-out-cont {
+		width: 13%;
+	}
+	/**************Welcome Menu Ends**************/
+	/*** Menu Starts ***/
+	.hide-568 {
+		display: none;
+	}
+
+	.display-568-block {
+		display: block;
+	}
+
+	#ms-designer-ribbon {
+		display: none!important;
+	}
+	/*** Menu Ends ***/
+	.page-width {
+		width: 568px;
+		display: block;
+		margin: 0 auto !important;
+	}
+
+	.header .company-logo {
+		display: none;
+	}
+	/*** Start CSS For Home Page ***/
+	/*.featured-stories figure img, .features-default-img img{
+		max-width: 542px;
+	    max-height: 140px;
+	    min-width: 542px;
+	    min-height: 280px;
+	}*/
+	.vmsNet-wire-cont li .wire-description {
+		width: 144px !important;
+		padding: 5px;
+	}
+
+	.vmsNet-wire-cont li .wire-description .wire-text {
+		height: 55px;
+	}
+
+	.vmsNet-wire-cont li {
+		width: 275px !important;
+	}
+
+	.featured-stories .slider-content-block {
+		width: 528px;
+		padding: 10px;
+		background: rgba(82, 94, 105, 1);
+	}
+
+	.featured-stories .date {
+		margin: 0;
+	}
+
+	.featured-stories .details {
+		height: 125px;
+	}
+
+	.header .search-box-cont #SearchOptions {
+		display: none;
+	}
+
+	.header .mega-menu-content #main-nav .home {
+		display: none;
+	}
+
+	.home .page-width .right-section {
+		padding: 0;
+	}
+
+	.page-width .right-section {
+		padding: 0;
+	}
+
+	.right-section .tab-cont {
+		display: none;
+	}
+	/*******Stock widget CSS Start********/
+	#stock_widget_container {
+		width: auto;
+	}
+
+	div.wd_widget {
+		width: auto;
+	}
+
+	div.wd_quote.wd_quote-show_detail.wd_quote-onecol > div.wd_main-wrapper > div > div.wd_price > div.wd_quote-value-down {
+		left: -132px;
+		width: 264px;
+		top: 65px;
+		height: 3px;
+	}
+
+	div.wd_quote.wd_quote-show_detail.wd_quote-onecol > div.wd_main-wrapper > div > div.wd_price > div.wd_quote-value-up {
+		left: -132px;
+		width: 264px;
+		top: 65px;
+		height: 3px;
+	}
+	/******Stock widget CSS End**********/
+	/**Hiding Emergency BG***/
+	.home .var-bg {
+		float: left;
+		width: 264px;
+		margin: 0 20px 0 0 !important;
+	}
+
+	.home .Emergency-bg {
+		width: 265px;
+		background: #FDB813;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		min-height: 115px;
+		margin-top: 10px !important;
+		float: left;
+		margin-bottom: 0;
+	}
+
+	.home .activity-feed-bg {
+		display: inline-block;
+		margin: 0 !important;
+		height: 210px;
+		width: 264px;
+		float: right;
+		margin-top: -85px !important;
+		min-height: 210px;
+	}
+
+	.activity-feed-bg .webpart-content {
+		height: 210px;
+	}
+
+	.home .activity-feed-bg .activity-feed-bg {
+		width: 240px;
+	}
+
+	.activity-feed-bg .custom-scroll {
+		height: 210px !important;
+	}
+
+	.flex-cont > .right-section,
+	.page-width > .left-section {
+		display: block;
+		width: 100%;
+	}
+
+	.home-features-stories-cont .webpart-content {
+		height: auto;
+	}
+
+	.home-features-stories-cont .custom-scroll {
+		height: auto!important;
+	}
+
+	.featured-stories {
+		height: 230px;
+		width: 100%;
+	}
+
+	.home-features-stories-cont .ms-webpart-cell-vertical,
+	.home-features-stories-cont .ms-webpart-chrome-vertical,
+	.home-features-stories-cont .ms-webpart-zone {
+		display: block;
+	}
+
+	.featured-stories .bx-controls {
+		left: 510px;
+	}
+
+	.featured-stories .bx-wrapper .bx-viewport {
+		height: 280px!important;
+	}
+
+	#SubmitStory {
+		display: none;
+	}
+
+	.featured-stories figure img,
+	.features-default-img img {
+		/* max-width: 42.16em;
+	    max-height: 21.50em;
+	    min-width: 42.16em;
+	    min-height: 21.50em;*/
+		height: 100%;
+	}
+
+	.featured-stories figure {
+		width: 548px;
+		height: 230px;
+		visibility: hidden;
+	}
+
+	.featured-stories .featured-story-slider li {
+		width: 548px;
+	}
+
+	.todays-varian-item {
+		margin: 0 0 20px;
+	}
+
+	.our-location-bg {
+		width: 264px;
+		margin-right: 20px;
+		margin-bottom: 8px;
+	}
+
+	.our-location-bg .location-img img {
+		width: 100%;
+	}
+
+	.varian-people-bg {
+		width: 264px;
+	}
+
+	.events-bg {
+		width: 264px;
+		float: left;
+	}
+
+	.events-bg .custom-scroll {
+		height: 220px !important;
+	}
+
+	.notices-bg {
+		width: 264px !important;
+		float: right;
+		height: auto;
+	}
+
+	.home .today-at-varian-cont .clearfix:after {
+		display: inline-block;
+	}
+
+	.our-people-bg {
+		/*width:340px;*/
+		width: 548px;
+		height: 226px;
+	}
+
+	.home .vmsNet-wire-cont {
+		margin-top: -25px !important;
+		width: 100%;
+	}
+
+	.VMSWire .today-at-varian h3.title {
+		margin-top: 25px;
+	}
+
+	.home .varian-people-continer .bx-controls-direction {
+		display: none;
+	}
+
+	.home .vmsNet-wire-cont .bx-controls-direction {
+		/*display:none;*/
+	}
+
+	.home .featured-application .bx-controls-direction {
+		/*display:none;*/
+	}
+
+	.featured-application .bx-next,
+	.imaging-component .featured-application .bx-next,
+	.vmsNet-wire-cont .bx-next {
+		right: -10px;
+	}
+
+	.featured-application .bx-prev,
+	.imaging-component .featured-application .bx-prev,
+	.vmsNet-wire-cont .bx-prev {
+		left: -10px;
+	}
+
+	.home .featured-application {
+		display: inline-block;
+		margin-top: 20px !important;
+		padding: 0 15px;
+	}
+
+	.featured-app-slider li {
+		width: 143px;
+		padding: 5px;
+	}
+	/************Footer Section CSS for 568*****************/
+	.footer-nav {
+		display: none;
+	}
+
+	.footer-logo {
+		top: 10px;
+		width: 206px;
+		position: absolute;
+	}
+
+	.footer .fa-warning {
+		left: 0;
+		margin-left: 15px;
+	}
+
+	.warning-cont {
+		margin: 30px 0 0 15px;
+	}
+
+	.warning-cont > li {
+		margin-bottom: 6px;
+	}
+
+	.social-net-icons label {
+		display: none;
+	}
+
+	div#company-links {
+		width: 350px;
+		top: 20px;
+	}
+
+	div#disclaimer {
+		width: 350px;
+		top: 60px;
+	}
+
+	div#company-links a {
+		padding: 0;
+	}
+
+	.footer .page-width .left-section {
+		width: 64%;
+		height: 105px;
+	}
+
+	.footer .right-section {
+		display: block !important;
+		width: 36% !important;
+	}
+
+	.claim-note-cont .page-width .left-section {
+		width: 351px;
+	}
+
+	.social-network-cont {
+		width: 351px;
+	}
+
+	.grad-footer {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aeb9bf+50,fdb813+50 */
+		background: #aeb9bf;
+		/* Old browsers */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		/* FF3.6-15 */
+		/* Chrome10-25,Safari5.1-6 */
+		background: -webkit-gradient(linear, left top, right top, color-stop(50%, #aeb9bf), color-stop(50%, #fdb813));
+		background: linear-gradient(to right, #aeb9bf 50%, #fdb813 50%);
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeb9bf', endColorstr='#fdb813',GradientType=1 );*/
+		/* IE6-8 */
+	}
+
+	.grad-footer-claim-note {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a3adb3+50,fdb813+50 */
+		background: #a3adb3;
+		/* Old browsers */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* FF3.6-15 */
+		/* Chrome10-25,Safari5.1-6 */
+		background: -webkit-gradient(linear, left top, right top, color-stop(50%, #a3adb3), color-stop(50%, #fdb813));
+		background: linear-gradient(to right, #a3adb3 50%, #fdb813 50%);
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3adb3', endColorstr='#fdb813',GradientType=1 );*/
+		/* IE6-8 */
+		height: 57px;
+	}
+
+	.grad-footer .page-width {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aeb9bf+76,fdb813+76,fdb813+76 */
+		background: #aeb9bf;
+		/* Old browsers */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeb9bf', endColorstr='#fdb813',GradientType=1 ); */
+		/* IE6-8 */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* FF3.6+ */
+		/* Chrome,Safari4+ */
+		/* Chrome10+,Safari5.1+ */
+		/* Opera 11.10+ */
+		/* IE10+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(50%, #aeb9bf), color-stop(50%, #fdb813), color-stop(50%, #fdb813));
+		background: linear-gradient(to right, #aeb9bf 50%, #fdb813 50%, #fdb813 50%);
+		/* W3C */
+	}
+
+	.grad-footer-claim-note .claim-note {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a3adb3+76,fdb813+76 */
+		background: #a3adb3;
+		/* Old browsers */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3adb3', endColorstr='#fdb813',GradientType=1 );*/
+		/* IE6-8 */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* FF3.6+ */
+		/* Chrome,Safari4+ */
+		/* Chrome10+,Safari5.1+ */
+		/* Opera 11.10+ */
+		/* IE10+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(63.5%, #a3adb3), color-stop(63%, #fdb813));
+		background: linear-gradient(to right, #a3adb3 63.5%, #fdb813 63%);
+		/* W3C */
+		height: 57px;
+	}
+
+	.main-cont .row-parent+.page-width {
+		clear: both;
+	}
+
+	.footer .page-width {
+		width: 568px;
+		display: block;
+	}
+
+	.grad-footer-claim-note .page-width .right-section {
+		display: none;
+	}
+
+	footer .page-width .right-section {
+		padding-left: 0 !important;
+	}
+
+	.varian-people-bg .varian-people-continer {
+		width: 100%;
+	}
+
+	.varian-people-bg .varian-people-continer li {
+		overflow: hidden;
+		width: 100%!important;
+		display: block;
+	}
+
+	.todays-varian-item .link {
+		margin-right: 5px;
+	}
+
+	.todays-varian-item.events-bg > .clearfix {
+		display: none;
+	}
+
+	.notices-bg .custom-scroll {
+		height: 223px !important;
+	}
+
+	.notices-bg .webpart-content {
+		height: 223px !important;
+	}
+
+	.notices-bg ul.cbs-List-Notices {
+		height: 174px;
+	}
+	/*** End CSS For Home Page ***/
+	/************ Start CSS For Article Details Page **************/
+	.page-width > .left-section {
+		padding: 0 !important;
+	}
+
+	.page-width .right-section {
+		padding-top: 0 !important;
+	}
+
+	.article-block .comments-section-btns .right-section {
+		width: 50%;
+	}
+
+	.article-block .comments-section-btns {
+		/*padding-bottom: 15px;*/
+	}
+
+	.article-block .comments-section {
+		width: 100%;
+		margin: 0 !important;
+	}
+
+	.article-block .ms-socialCommentEdit table td div {
+		width: 100% !important;
+	}
+
+	.comments-sect-cont {
+		margin-bottom: 0 !important;
+	}
+
+	article.see-also .s4-wpcell-plain {
+		margin: 0 10px 20px;
+		width: 264px;
+		float: left;
+	}
+
+	.article-block {
+		clear: both;
+	}
+
+	.bread-crumb-cont {
+		display: none !important;
+	}
+
+	.article-img-block .ms-rtestate-field {
+		width: 100%;
+		height: auto;
+		padding-right: 0;
+	}
+
+	.article-img-block img {
+		/*max-width:93%!important;*/
+		width: 548px;
+		margin: 20px 0 5px;
+	}
+
+	.article-block .ms-webpart-chrome-fullWidth {
+		padding: 0 15px 5px 15px !important;
+	}
+
+	.article-img-block {
+		width: 100% !important;
+	}
+
+	.article-img-block p,
+	.article-img-block span[data-name="Page Field: Image Caption"] {
+		padding: 5px 0 5px 0 !important;
+		width: 100%;
+		line-height: 1.25em !important;
+	}
+
+	.article-block .comments-sect-cont .ms-errorinl {
+		margin: 5px 0 0 0 !important;
+	}
+
+	.article-block .ms-socialCommentLoading input {
+		width: auto;
+		text-align: center !important;
+	}
+	/************* End CSS For Article Page **********************/
+	/************* Corporate Services Page CSS Starts ***********/
+	.corporate-services .cbs-picture-img-link {
+		float: none;
+		width: 100%;
+		display: inline-block;
+	}
+
+	.corporate-services .gallery-item img {
+		float: left;
+		margin-right: 10px;
+		width: 72px;
+		height: 72px;
+	}
+
+	.corporate-services-cont .item-info .northspace4 {
+		margin-top: -3px !important;
+	}
+
+	.see-also {
+		width: 568px;
+		margin-left: -10px;
+		margin-bottom: 20px;
+	}
+	/************* Corporate Services Page CSS Ends ***********/
+	/***************Search Result Page Start Here ***************/
+	.ajax__multi_slider_default .handle_noforcepressed,
+	.ajax__multi_slider_default .inner_rail_horizontal,
+	.slider_tick_active,
+	.slider_tick_inactive {
+		z-index: 0;
+	}
+
+	.search-result-cont .contact-content .contact-details {
+		padding: 0;
+		width: 318px;
+		float: right;
+	}
+
+	.search-result-cont .contact-content .contact-details.wide {
+		width: 548px;
+	}
+
+	.contact-details .SearchResultPage .ms-srch-people-item {
+		padding: 10px !important;
+	}
+
+	.ms-srch-group-title {
+		display: none;
+	}
+
+	.let-us-know,
+	.popular-searches {
+		display: none;
+	}
+
+	.search-result-cont .ms-srch-hover-innerContainer {
+		display: none !important;
+	}
+
+	.search-result-cont .right-section {
+		display: none !important;
+	}
+
+	.search-result-cont .contact-content .half-width .ms-srch-item {
+		width: auto;
+		margin: 0 !important;
+		padding: 10px 20px !important;
+	}
+
+	.search-result-cont .contact-content .ms-srch-video-itemmain .ms-srch-item-video-path {
+		color: #5c707b;
+		font-size: 14px;
+		font-family: $font-regular;
+		width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.ms-srch-video-itemthumbnail {
+		margin: 0;
+	}
+
+	.ms-srch-video-itemmain h3 {
+		padding-top: 0;
+	}
+
+	.ms-srch-video-itemmain h3 a {
+		color: #5c707b;
+		font-size: 14px;
+		font-family: $font-regular;
+	}
+
+	.ms-srch-video-itemmain {
+		padding-bottom: 0;
+	}
+
+	.search-result-cont .contact-details .ms-srch-video-itemmain .ms-srch-item-summary {
+		color: #6e8794;
+		font-size: 14px;
+		font-family: $font-light;
+	}
+
+	.search-result-cont .contact-content .ms-srch-item-body {
+		padding: 5px 0;
+	}
+
+	.search-result-cont .contact-details .ms-srch-item-body h3.ms-srch-ellipsis a.ms-srch-item-link {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 100%;
+	}
+
+	.ms-srch-item-icon {
+		margin: 0;
+	}
+
+	.search-result-cont .contact-details .ms-srch-item-title h3.ms-srch-ellipsis {
+		padding: 0;
+	}
+
+	.ms-disabled {
+		color: #6e8794 !important;
+		font-size: 14px;
+		font-family: $font-light;
+		word-wrap: break-word;
+		padding-top: 10px;
+	}
+
+	.contact-details #NoResult {
+		padding-left: 10px;
+	}
+
+	.right-search {
+		width: 318px;
+	}
+
+	.contact-content .inner-right-section {
+		float: right;
+		padding-left: 0;
+	}
+
+	.search-result-cont .main-search-cont .ms-srch-sb > input {
+		width: 140px !important;
+	}
+
+	.search-result-cont .main-search-cont .ms-srch-sb {
+		width: 270px !important;
+		position: relative;
+	}
+
+	.contact-content .half-width {
+		width: 318px;
+		position: relative;
+		float: right;
+		padding-left: 0;
+	}
+
+	.main-search-cont .iconRight {
+		right: -35px;
+		top: 0;
+	}
+
+	.contact-list-cont .inner-left-section {
+		width: 100% !important;
+	}
+
+	.main-search-cont .inner-left-section .ms-srch-result .ms-srch-upscope-top {
+		width: 100% !important;
+	}
+
+	.search-result-cont .contact-details .ms-webpart-cell-vertical,
+	.search-result-cont .contact-details .ms-webpart-chrome-vertical,
+	.search-result-cont .contact-details .ms-webpart-zone {
+		display: block;
+	}
+	/***************Search Result Page ends Here ***************/
+	/**************Contact Page CSS Ends here*********************/
+	.contact-content .inner-right-section .ms-srch-sbLarge > input {
+		width: 285px !important;
+	}
+
+	.contact-content .ms-srch-sb-searchLink {
+		right: -52px;
+	}
+
+	.intro-text {
+		padding: 0;
+	}
+
+	.contact-details .ms-srch-people-outerContainer .ms-srch-people-item {
+		padding: 5px 0 0;
+	}
+
+	.contact-content .inner-right-section .ms-srch-sbLarge {
+		width: 265px;
+	}
+
+	.contact-content .half-width .ms-srch-people-outerContainer {
+		float: none !important;
+		width: 100% !important;
+	}
+
+	.contact-content .full-width .ms-srch-people-outerContainer {
+		float: left !important;
+	}
+
+	.full-width .ms-srch-people-outerContainer .ms-srch-people-item #UserInfoContainer {
+		width: 170px !important;
+	}
+	/*.contact-details .ms-srch-people-outerContainer .ms-srch-people-item{
+		width:245px;
+	}*/
+	.contact-content .half-width .ms-srch-people-outerContainer .ms-srch-people-item {
+		width: auto;
+	}
+
+	.half-width .ms-srch-people-outerContainer .ms-srch-people-item #UserInfoContainer {
+		width: 230px !important;
+	}
+
+	.contact-details .ms-srch-people-outerContainer .ms-srch-people-item #UserPersonaContainer {
+		width: 69px !important;
+		height: 60px !important;
+	}
+
+	.ms-srch-people-item #UserPersona {
+		height: 60px;
+	}
+
+	.half-width .SearchResultPage .ms-srch-people-item #SearchUserInfoContainer {
+		width: 215px !important;
+		margin-left: 10px;
+		float: left;
+	}
+
+	div.contact-details.half-width.auto-section.wide .ms-srch-item {
+		width: auto;
+	}
+
+	.contact-content .ms-ref-ctrl {
+		margin-right: 0 !important;
+	}
+
+	.inner-left-section #Container {
+		width: 210px;
+	}
+
+	.inner-left-section .ms-ref-refinername {
+		display: block;
+		background-color: #e7e8ea;
+	}
+
+	.contact-content .ms-ref-refiner {
+		display: block;
+	}
+
+	.inner-left-section .ms-ref-refiner #Value {
+		width: auto !important;
+	}
+
+	.contact-content .Contact-Refiner-Less,
+	.contact-content .Contact-Refiner-More {
+		float: none;
+	}
+
+	.contact-cont .custom-scroll {
+		padding: 0 10px 0 0 !important;
+	}
+	/**************Contact Page CSS Ends here*********************/
+	/**************Article Archive Page CSS Starts *****************/
+	.histogram_container,
+	.slider_extent_label_section,
+	.slideronly_container {
+		margin-left: 10px;
+	}
+
+	.article-news-block .article-news-details p.wire-text {
+		clear: both;
+	}
+
+	.article-news-block .article-news-img {
+		margin: 0 10px 0 0 !important;
+	}
+
+	.article-news-block .article-news-img img {
+		height: 72px;
+		width: 72px;
+	}
+
+	.article-news-block .article-news-details .date {
+		margin: 0 !important;
+	}
+
+	.popular-searches ul.cbs-List .clearfix:after {
+		display: inline !important;
+	}
+
+	.article-news-block .contact-content .half-width {
+		width: 303px !important;
+	}
+
+	.article-news-block .half-width .main-article {
+		width: 303px !important;
+		margin-bottom: 15px;
+	}
+
+	.ms-srch-result #PagingLink a,
+	.ms-srch-result #PagingSelf a {
+		top: 3px;
+	}
+
+	.Contact-Refiner-Less,
+	.contact-content .Contact-Refiner-More {
+		padding-left: 10px;
+	}
+	/*** End CSS For Article Archive Page ***/
+	/*** Start CSS For Events Page ***/
+	/*#CalendarContainer .jq-calendar-wrapper > table{
+		width:545px;
+	}
+
+	#CalendarContainer table td{
+		height:70px !important;
+	}
+
+	#CalendarContainer table td.select-td span a{
+		max-width:50px;
+	}
+
+	#CalendarContainer table td.ui-body-c a.ui-btn-up-c{
+		bottom:-5px !important;
+	}*/
+	.bread-crumb-cont {
+		display: none;
+	}
+
+	#CalendarContainer select {
+		position: relative;
+		top: 28px;
+		color: #b0c1cb;
+		border: none;
+		background: none;
+	}
+
+	#CalendarContainer tr th.header {
+		margin: 0 0 20px 0 !important;
+	}
+
+	#CalendarContainer .jq-calendar-wrapper {
+		margin: 0 !important;
+		width: 548px;
+		overflow: auto;
+	}
+	/*** End CSS For Events Page ***/
+	/*** Start CSS For Gallery Page ***/
+	/*.photo-gallery table.ms-listviewtable tr td > div{
+		width:550px !important;
+	}
+	.photo-gallery .ms-tileview-tile-root{
+		width:176px !important;
+		height:130px  !important;
+	}
+	.photo-gallery .ms-tileview-tile-inner{
+		width:176px !important;
+		height:130px  !important;
+	}
+	.photo-gallery .ms-tileview-tile-content{
+		width:176px !important;
+		height:130px  !important;
+	}
+	.photo-gallery .ms-positionRelative{
+		width:176px !important;
+		height:130px  !important;
+	}
+	.photo-gallery .ms-tileview-tile-root{
+		margin: 7px 0 0 7px !important;
+	}
+	.photo-gallery table.ms-listviewtable tr td > div{
+		left:-7px !important;
+	}
+	.photo-gallery .ms-tileview-tile-detailsBox{
+		display:none;
+	}*/
+	.photo-gallery {
+		width: 100%;
+		overflow: auto;
+	}
+
+	.photo-gallery .ms-tileview-tile-root {
+		width: 176px !important;
+		height: 128px !important;
+		margin: 6px 3px 0;
+	}
+
+	.photo-gallery .ms-tileview-tile-inner {
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	.photo-gallery .ms-tileview-tile-content {
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	.photo-gallery .ms-tileview-tile-content a {
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+
+	.photo-gallery .ms-positionRelative {
+		width: 100% !important;
+		height: 100% !important;
+		max-width: 100%;
+	}
+
+	.photo-gallery .ms-tileview-tile-detailsBox {
+		/*width: 166px !important;
+	    height: 118px !important;
+	    padding: 5px;*/
+		display: none;
+	}
+
+	.photo-gallery .ms-tileview-tile-detailsListMedium {
+		height: 100%;
+	}
+
+	.photo-gallery .ms-tileview-tile-selectionBox {
+		left: 0;
+	}
+
+	.photo-gallery table.ms-listviewtable tr td > div {
+		position: static;
+		width: 100%;
+	}
+	/*** End CSS For Gallery Page ***/
+	/*** Buisness Unit Starts ***/
+	.business-unit .cbs-picture-img-link {
+		width: 50%;
+		float: left;
+		display: block;
+		margin-bottom: 0;
+	}
+
+	.business-unit .gallery-item .item-title {
+		font-size: 16px;
+		padding-top: 0 !important;
+		padding-bottom: 3px;
+	}
+
+	.business-unit .gallery-item .item-content {
+		height: auto;
+		overflow: visible;
+	}
+
+	.business-unit .gallery-item img {
+		width: 80px;
+		height: auto;
+		margin-bottom: 5px;
+		position: static;
+		float: right;
+		margin-left: 10px;
+	}
+
+	.related-news .text {
+		margin-bottom: 10px;
+	}
+	/***HR Page fix***/
+	.notices-cont .business-unit .gallery-item img {
+		max-width: 100%;
+		width: 72px;
+		height: auto;
+		margin-bottom: 10px;
+		position: static;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.business-unit-cont {
+		margin-bottom: 20px;
+	}
+	/*** Buisness Unit Ends ***/
+	/******************** Error Page CSS Starts ********************/
+	.error-page {
+		width: 100%;
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	.vmsnet-contentBox .error-page .error-content {
+		width: 100%;
+	}
+	/******************** Error Page CSS Ends ********************/
+	/*************** Imaging Components +Location Pages CSS Starts *******************/
+	.notice-scroll > a > img {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+
+	.imaging-component-cont .page-info .info-text-cont {
+		float: left;
+		width: 100%;
+	}
+
+	.imaging-component-cont .management-team-cont {
+		width: 264px;
+	}
+
+	.imaging-component-cont .management-team-cont .webpart-content {
+		height: 369px;
+	}
+
+	.imaging-component.location-section-cont .management-team-cont.management-location .webpart-content {
+		height: 233px !important;
+	}
+
+	.location-section-cont .management-team-cont.management-location .custom-scroll {
+		height: 233px !important;
+	}
+
+	.imaging-component-cont .management-team-cont .custom-scroll {
+		height: 366px !important;
+	}
+
+	.imaging-component-cont .imaging-component .varian-people-bg {
+		width: 264px;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+
+	.imaging-component-cont .imaging-component .events-bg {
+		width: 264px;
+		margin-right: 0;
+		float: left;
+	}
+
+	.imaging-component-cont .imaging-component .notices-bg {
+		width: 264px!important;
+		min-height: 223px;
+		margin-left: 0;
+		float: right;
+		height: 400px !important;
+	}
+
+	.imaging-component.location-section-cont .notices-bg {
+		float: left;
+		min-height: 140px;
+		height: 130px !important;
+	}
+
+	.imaging-component.location-section-cont .notices-bg .custom-scroll {
+		height: 130px !important;
+	}
+
+	.location-section-cont .quick-link-cont {
+		float: right;
+		width: 264px;
+		height: 130px;
+		min-height: 140px;
+	}
+
+	.location-section-cont .quick-link-cont .webpart-content {
+		height: 130px;
+		overflow: hidden;
+	}
+
+	.location-section-cont .quick-link-cont .custom-scroll {
+		height: 130px !important;
+	}
+
+	.location-section-cont .visitor-information {
+		width: 264px;
+		margin: 0 0 20px;
+	}
+
+	.location-section-cont .weather-conditions {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.location-section-cont .weather-conditions .weather-content .weather-icon {
+		width: auto;
+	}
+
+	.imaging-component.location-section-cont .notices-bg ul.cbs-List-Notices {
+		height: auto;
+	}
+
+	.imaging-component-cont .notices-bg .webpart-content {
+		height: 223px;
+	}
+	/*.imaging-component-cont .imaging-component .notices-bg .custom-scroll {
+	    height: 223px !important;
+	}*/
+	.imaging-component-cont .org-char-cont {
+		margin: 10px 0!important !important;
+	}
+
+	.imaging-component-cont #VMSSire-site-stories.vmsNet-wire-cont {
+		width: 100%;
+	}
+
+	.tree-view-cont {
+		width: 100%;
+	}
+
+	.imaging-component-cont .imaging-component .varian-people-bg {
+		float: right;
+	}
+
+	.imaging-component-cont .org-char-cont {
+		margin: 0 0 4px 0!important !important;
+		width: 548px;
+	}
+
+	.imaging-component-cont .org-char-cont h3 {
+		padding-top: 0;
+		width: 548px;
+	}
+
+	.imaging-component-cont .how-do-i {
+		width: 264px;
+		float: left;
+		clear: both;
+		padding: 0;
+	}
+
+	.how-do-i .webpart-content section {
+		padding: 10px;
+		min-height: 83px;
+	}
+
+	.how-do-i .webpart-content {
+		min-height: 103px;
+	}
+
+	.how-do-i .heading {
+		width: 76%;
+	}
+
+	.how-do-i .common-select {
+		width: 100%;
+	}
+
+	.how-do-i .answer {
+		width: 100%;
+		margin: 0;
+	}
+
+	.imaging-component-cont .imaging-component .referrals {
+		float: right;
+		width: 264px;
+	}
+
+	.imaging-component .spot-light-block {
+		width: auto;
+		height: 103px;
+	}
+
+	.imaging-component .spot-light-block > li {
+		height: 100%;
+	}
+
+	.spot-light-block .only-text {
+		height: 90%;
+		/*padding:5px 10px 5px 10px;*/
+	}
+
+	.spot-light-block .only-text center {
+		height: 100%;
+	}
+
+	.imaging-component-cont .featured-application {
+		width: auto;
+		margin: 0 0 20px 0 !important;
+		padding: 0 15px;
+	}
+
+	.imaging-component .featured-application .bx-next {
+		right: -12px;
+		top: 37px !important;
+	}
+
+	.imaging-component .featured-application .bx-prev {
+		left: -12px;
+		top: 37px !important;
+	}
+	/*************** Imaging Components CSS Ends *******************/
+	/*************** Human Resources CSS Starts **********************/
+	.corporate-services-main .imaging-component .notices-bg {
+		margin-left: 0;
+	}
+
+	.corporate-services-main .imaging-component .events-bg {
+		margin-left: 0;
+		clear: none;
+		float: right;
+	}
+
+	.corporate-services-main .imaging-component .varian-people-bg {
+		float: left;
+	}
+
+	.corporate-services-main .imaging-component .varian-people-bg {
+		clear: both;
+	}
+
+	.corporate-services-main .org-char-cont {
+		margin: 0 0 15px!important !important;
+	}
+
+	.corporate-services-main .featured-application {
+		margin: 15px 0 0;
+	}
+
+	.corporate-services-main .featured-application .bx-controls {
+		display: none;
+	}
+
+	.corporate-services-main .how-do-i {
+		width: 264px;
+		clear: both;
+	}
+
+	.corporate-services-main .imaging-component .referrals {
+		width: 264px;
+		margin-left: 20px;
+	}
+
+	.corporate-services-main .how-do-i .heading {
+		margin: 0 auto;
+		width: 76%;
+	}
+
+	.team_org {
+		width: 264px;
+	}
+	/*********** Human Resources CSS Ends ***********************/
+	/*********** Community Landing Page CSS Starts **************/
+	.imaging-component-cont.community-landing-page .imaging-component .events-bg {
+		float: right;
+	}
+
+	.community-landing-page .VMS-people .webpart-content {
+		height: 310px;
+	}
+
+	.community-landing-page .VMS-people .webpart-content .custom-scroll {
+		height: 310px !important;
+	}
+
+	.community-landing-page .info-text-cont h4 {
+		margin-bottom: 0;
+	}
+
+	.VMS-people .varian-people-continer {
+		height: 310px;
+		overflow: visible;
+	}
+
+	.VMS-people li {
+		margin: 0 0 6px;
+	}
+
+	.slides-default-img .ms-srch-result-noResults {
+		width: 100%;
+		padding: 0;
+	}
+
+	.community-landing-page .management-team-cont {
+		min-height: 350px;
+	}
+
+	.community-landing-page div.spot-light-block {
+		width: 264px;
+		min-height: 120px;
+		height: auto;
+		float: right;
+	}
+
+	.community-landing-page .spot-light-block {
+		width: 100%;
+	}
+
+	.community-landing-page .spot-light-block > li {
+		height: 150px;
+	}
+
+	.community-landing-page .spot-light-block .only-text {
+		height: 140px;
+		padding: 5px 10px;
+	}
+
+	.community-landing-page .spot-light-block .only-text > a > img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.community-landing-page .newsfeed {
+		width: 100%!important;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+
+	.community-landing-page .bravo-awards {
+		width: 100%;
+	}
+
+	#tabs_container {
+		display: none;
+	}
+
+	.community-main .see-also {
+		width: 264px;
+	}
+	/*********** Community Landing Page CSS Ends **************/
+	/*********** News Landing Page CSS Starts *****************/
+	section.landing-news div.page-info.auto-section {
+		height: 35px;
+		margin-bottom: 0;
+	}
+
+	.landing-news .imaging-component .featured-news-stories {
+		margin-bottom: 10px;
+	}
+
+	.landing-news .vmsNet-wire-cont .ms-webpart-titleText {
+		font-size: 14px;
+		padding: 0 0 10px;
+	}
+
+	.landing-news .ceo-update-block .wire-description {
+		width: 132px;
+		padding: 5px;
+	}
+
+	.featured-news-stories .ms-webpart-cell-vertical,
+	.featured-news-stories .ms-webpart-chrome-vertical,
+	.featured-news-stories .ms-webpart-zone {
+		display: block;
+	}
+
+	.news-landing-page .news-main .news-img-block {
+		float: left;
+		width: 220px;
+		margin: 0 20px 20px 10px;
+	}
+
+	.landing-news .var-bg {
+		margin: 0;
+		float: right;
+		width: 264px;
+		margin-top: -103px !important;
+	}
+
+	.news-landing-page .feature-news-title span:nth-child(2) {
+		text-align: right;
+	}
+
+	.news-landing-page .feature-news-title {
+		width: 100%;
+		position: relative;
+	}
+
+	.news-landing-page .bx-controls {
+		display: none;
+	}
+
+	.news-landing-page .feature-news-title span:nth-child(2) {
+		position: absolute;
+	}
+
+	.news-landing-page .feature-news-title span {
+		width: 50%;
+	}
+
+	.news-landing-page .feature-news-title span a {
+		margin-left: 0;
+		margin-top: 3px;
+		display: inline-block;
+		margin-right: 15px;
+	}
+
+	.landing-news .imaging-component .vmsNet-wire-cont {
+		width: 100% !important;
+		margin: 0 0 20px;
+	}
+
+	.news-landing-page .ceo-update-block {
+		width: 264px;
+		min-height: 132px;
+		margin: 0 0 20px;
+	}
+
+	.news-landing-page .spot-light-block {
+		height: 132px;
+		width: 264px;
+		float: right;
+		margin: 0;
+		clear: none!important;
+		min-height: 132px;
+	}
+
+	.imaging-component.location-section-cont.news-landing-page .notices-bg {
+		width: 264px!important;
+		float: left;
+		margin-top: 0;
+		height: 130px !important;
+	}
+
+	.imaging-component.location-section-cont.news-landing-page .notices-bg .webpart-content {
+		height: 130px !important;
+	}
+
+	.imaging-component.location-section-cont.news-landing-page .notices-bg ul.cbs-List-Notices {
+		height: auto;
+	}
+
+	.imaging-component.location-section-cont.news-landing-page .activity-feed-bg {
+		width: 264px!important;
+		float: right;
+		margin: 0;
+		min-height: 140px;
+		height: 130px;
+	}
+
+	.imaging-component.location-section-cont.news-landing-page .activity-feed-bg .activity-feed-bg {
+		width: 100%!important;
+		margin: 20px 0 0 0!important !important;
+	}
+
+	.imaging-component.location-section-cont.news-landing-page .activity-feed-bg .webpart-content {
+		height: 130px;
+		overflow: hidden;
+	}
+
+	.imaging-component.location-section-cont.news-landing-page .activity-feed-bg .custom-scroll {
+		height: 130px!important;
+	}
+
+	.imaging-component.location-section-cont.news-landing-page .notices-bg .custom-scroll {
+		height: 130px !important;
+	}
+
+	.news-landing-page .how-do-i {
+		margin: 20px 0 0 0 !important;
+		width: 264px;
+	}
+	/*********** News Landing Page CSS Ends *****************/
+	/*********** Company Location Page Starts ***************/
+	.location-section-cont .location-cont {
+		width: 264px;
+		float: right;
+	}
+
+	.location-cont .map-cont {
+		width: 100%;
+	}
+
+	.address {
+		padding-top: 10px;
+	}
+
+	.company-location-main .imaging-component.location-section-cont .management-team-cont {
+		min-height: 294px;
+		margin-bottom: 10px;
+	}
+
+	.company-location-main .imaging-component.location-section-cont .management-team-cont.management-location .webpart-content {
+		height: 263px;
+	}
+
+	.company-location-main .imaging-component-cont .management-team-cont .custom-scroll {
+		height: 263px !important;
+	}
+
+	.company-location-main .location-section-cont .location-cont {
+		width: 264px;
+		min-height: 294px;
+		margin-bottom: 10px;
+		float: right;
+	}
+
+	.company-location-main .location-cont .map-cont {
+		width: 100%;
+	}
+
+	.company-location-main .imaging-component-cont .imaging-component .notices-bg {
+		width: 264px!important;
+		min-height: 140px;
+		margin-left: 0;
+		clear: both;
+	}
+
+	.company-location-main .imaging-component-cont .imaging-component .notices-bg .custom-scroll {
+		height: 140px !important;
+	}
+
+	.company-location-main .notices-bg ul.cbs-List-Notices {
+		height: 99px;
+	}
+
+	.company-location-main .location-section-cont .quick-link-cont {
+		width: 264px;
+		min-height: 140px;
+		margin-right: 0;
+		margin-left: 20px;
+	}
+
+	.company-location-main .location-section-cont .quick-link-cont .custom-scroll {
+		height: 140px!important;
+	}
+
+	.company-location-main .location-section-cont .quick-link-cont .webpart-content {
+		height: 140px;
+		overflow: hidden;
+	}
+
+	.company-location-main .imaging-component-cont .org-char-cont {
+		/*margin: 0 0 20px 0!important;*/
+		margin: 0 0 2px 0!important !important;
+	}
+
+	.company-location-main .location-section-cont .visitor-information {
+		width: 264px;
+		min-height: 140px;
+		margin: 10px 0 0;
+		clear: both;
+	}
+
+	.company-location-main .location-section-cont .weather-conditions {
+		margin-left: 0;
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.company-location-main .location-section-cont .weather-conditions .custom-scroll {
+		padding: 10px 0;
+	}
+
+	.company-location-main .see-also .ms-webpartzone-cell {
+		width: 264px;
+		float: left;
+	}
+
+	.company-location-main .see-also .ms-webpartzone-cell:nth-child(even) {
+		/* margin-left:20px!important*/
+	}
+
+	.company-location-main .see-also .ms-webpartzone-cell {
+		margin-left: 20px!important;
+	}
+
+	.company-location-main .see-also .ms-webpartzone-cell:first-child {
+		margin-left: 0!important;
+	}
+
+	.company-location-main .flex-cont.right-section {
+		margin-bottom: 20px;
+	}
+	/*********** Company Location Page Starts ***************/
+	/*********** Mega Menu CSS Starts ***********************/
+	/*********** Our Orgnization Starts *********************/
+	.display-568-block {
+		display: block;
+	}
+
+	#org-menu .right-col > hr.divder {
+		display: none;
+	}
+
+	#menu-org .left-col {
+		width: 100%;
+		padding: 0;
+	}
+
+	#menu-org .right-col {
+		width: 100%;
+		padding: 0;
+		border-left: none;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		height: auto;
+	}
+
+	#menu-org .business-unit .bus-unit-links .link-li {
+		margin: 0;
+	}
+
+	#menu-org .corporate-services ul.cop-ser-links:nth-child(2),
+	#menu-org .corporate-services ul.cop-ser-links:nth-child(2),
+	#menu-org .corporate-services ul.cop-ser-links:nth-child(2) {
+		width: 33%;
+		margin: 0;
+	}
+
+	#menu-org .corporate-services .cop-ser-links .link {
+		margin: 0;
+		padding: 2px 5px;
+		line-height: 1em;
+	}
+
+	#menu-org .corporate-services .heading {
+		margin-top: 15px;
+	}
+
+	#menu-org .business-unit .bus-unit-links {
+		margin: 0 0 15px;
+	}
+
+	#menu-org .corporate-services .iconic-link .link {
+		margin-bottom: 5px;
+	}
+
+	#menu-org .right-col .ceo-qat-update {
+		padding: 2px 0 0;
+		float: left;
+		width: 44%;
+		margin: 0 0 15px 0 !important;
+		border-bottom: 1px solid #8ca3af;
+	}
+
+	#menu-org .right-col .common-link .link {
+		padding: 3px 0 5px;
+	}
+
+	#menu-org .corporate-services {
+		margin-bottom: 10px;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #8ca3af;
+	}
+
+	#menu-org .right-col .reg-site li {
+		width: 33%;
+	}
+
+	#menu-org .right-col .misc .link {
+		float: left;
+		width: 34%;
+	}
+
+	#menu-org .right-col .oc-cl .link {
+		margin-bottom: 0 !important;
+		float: left;
+		width: 100%;
+	}
+
+	#menu-org .right-col .oc-cl {
+		margin: 0 0 15px 0 !important;
+		float: left;
+		width: 56%;
+		padding: 0;
+		border-bottom: 1px solid #8ca3af;
+	}
+
+	#menu-org .right-col .heading {
+		padding: 0 !important;
+	}
+
+	#menu-org .right-col .reg-site {
+		border-bottom: 1px solid #8ca3af;
+		padding: 0 0 5px;
+		margin: 5px 0 15px;
+	}
+
+	li.link.all-loc {
+		margin-left: -20px;
+	}
+
+	#menu-org .right-col .misc {
+		margin: 0;
+	}
+	/*********** Our Orgnization CSS Ends ***************/
+	/*********** News and Events CSS Starts *************/
+	#news-event .left-col {
+		width: 100%;
+		padding: 0;
+		border-bottom: 1px solid #8ca3af;
+	}
+
+	#news-event .right-col {
+		width: 100%;
+		border-left: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		margin: 15px 0 0;
+		padding: 0;
+		height: auto;
+	}
+
+	#news-event .left-col .left-module {
+		width: 57%;
+	}
+
+	#news-event .left-col .menu-wire-story .desc {
+		width: 182px;
+	}
+
+	#news-event .calendar-control {
+		display: none;
+	}
+
+	#news-event .right-col .right-module {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	#news-event .left-col .right-module {
+		width: 39%;
+		margin: 1px 0 0;
+		float: right;
+	}
+
+	#news-event .link-set2+.divder {
+		display: none;
+	}
+
+	#news-event .right-col .link-set1+.divder {
+		display: none;
+	}
+
+	#news-event .right-col .right-module .link-set1 {
+		float: left;
+		width: 57%;
+		margin-right: 20px;
+	}
+
+	#news-event .right-col .right-module .link-set1 li {
+		display: inline-block;
+		margin-left: 20px;
+	}
+
+	#news-event .right-col .right-module .link-set2 {
+		float: left;
+		margin: 0;
+	}
+
+	#news-event .right-col .right-module .heading {
+		margin-top: -31px;
+		margin-bottom: 0;
+		float: left;
+	}
+
+	#news-event .left-col .menu-vms-wire {
+		margin: 0 0 10px;
+	}
+	/*********** News and Events CSS Ends *************/
+	/*********** 2984er and Benefits Starts ***********/
+	#career-benefits .left-col {
+		width: 100%;
+		padding: 0;
+		border-bottom: 1px solid #8ca3af;
+	}
+
+	#career-benefits .left-col .imp-forms {
+		margin-bottom: 20px;
+	}
+
+	#career-benefits .left-col .benefits-links:nth-child(2),
+	#career-benefits .left-col .benefits-links:nth-child(3),
+	#career-benefits .left-col .benefits-links:nth-child(4) {
+		margin: 0;
+		padding: 0;
+		width: 33%;
+	}
+
+	ul.clearfix.reset.logo-list.southspace1 {
+		margin: 0;
+	}
+
+	#career-benefits .right-col {
+		width: 100%;
+		padding: 0;
+		border-left: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		padding-top: 15px;
+	}
+
+	#career-benefits .right-col .team-contacts {
+		margin-top: 11px;
+	}
+
+	#career-benefits .right-col .common-link {
+		width: 50%;
+		margin: 0;
+	}
+
+	#career-benefits .right-col .logo-list li {
+		width: 29%;
+		padding: 2px 10px;
+	}
+	/*********** Career and Benefits Ends ***********/
+	/*********** Resources CSS Starts ***************/
+	#resources .left-col {
+		width: 100%;
+		padding: 0;
+		border-bottom: 1px solid #8ca3af;
+	}
+
+	#resources .right-col {
+		width: 100%;
+		padding: 0;
+		border-left: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		margin: 20px 0 0;
+	}
+
+	#resources .left-col .cop-ser-links:nth-child(2),
+	#resources .left-col .cop-ser-links:nth-child(3),
+	#resources .left-col .cop-ser-links:nth-child(4) {
+		margin: 0;
+		width: 33%;
+	}
+
+	#resources .right-col .app-thumb .link img {
+		max-width: 100%;
+	}
+
+	#resources .right-col .app-thumb .link {
+		width: 130px;
+		height: 30px;
+	}
+
+	#resources .right-col .app-thumb .thumb-intellisource {
+		margin-top: -17px;
+	}
+
+	#resources .right-col .app-thumb .live-meeting a {
+		position: relative;
+		top: 6px;
+	}
+
+	#resources .right-col .app-tool {
+		float: left;
+	}
+
+	#resources .right-col .app-thumb {
+		float: left;
+		margin: 0 0 0 28px;
+	}
+
+	#resources .right-col .misc-links-2 {
+		float: right;
+		width: 43%;
+		margin: 0;
+	}
+
+	#resources .left-col .misc-links-2 {
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	#resources .right-col .misc-links-2 .misc-links {
+		margin: 0 0 0 10px;
+	}
+	/*********** Resources CSS Ends ***************/
+	/********** Community CSS Starts **************/
+	#community .left-col {
+		width: 29%;
+	}
+
+	#community .middle-col {
+		width: 51%;
+	}
+
+	#community .right-col {
+		width: 100%;
+		padding: 0;
+		border-left: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		margin: 20px 0 0;
+	}
+
+	#community .right-col .misc-link-1+.divder {
+		display: none;
+	}
+
+	#community .right-col .misc-link-1 {
+		float: left;
+		width: 41%;
+	}
+
+	#community .right-col .misc-link-2 {
+		float: left;
+		width: 41%;
+		margin-top: 0;
+	}
+
+	#community .right-col .display-568-block {
+		margin-bottom: 20px;
+	}
+	/********** Community CSS Ends **************/
+	/********** Mega-menu Submenu Ends***********/
+	/********** Human Resources CSS Starts ******/
+	.corporate-services-main .imaging-component .notices-bg {
+		float: right;
+	}
+	/********** Human Resources CSS Ends ********/
+	.article-content-block {
+		clear: both;
+	}
+
+	.ms-socialCommentItem .socialcomment-contents {
+		width: auto;
+	}
+
+	.ms-socialCommentItem .socialcomment-bottom {
+		padding-bottom: 0;
+	}
+
+	.image-gallery-cont .page-info {
+		margin-top: 0;
+	}
+
+	.imaging-component-cont .page-info {
+		margin-bottom: 21px;
+		min-height: 25px;
+	}
+
+	.main-img+.info-text-cont .intro-text {
+		height: 148px;
+	}
+
+	#gatewayIntroText {
+		height: auto;
+	}
+
+	.search-result-cont .contact-content .ms-srch-item {
+		margin: 0 0 40px 0 !important;
+	}
+
+	.corporate-services-cont .page-info {
+		margin-top: 0;
+	}
+
+	.featured-stories .actions .link:nth-child(2) {
+		/*display:none;	*/
+	}
+	/****************** Generic Layout HR CSS Start Here **********************/
+	.article-content-block > h3 {
+		padding: 0;
+		margin-bottom: 15px;
+	}
+
+	#resources_table {
+		width: 548px;
+	}
+
+	.resources_box_image_frame,
+	.resources_box_image_frame IMG {
+		width: 250px;
+	}
+
+	IMG.smallerImg {
+		width: 130px;
+	}
+
+	.resources_box {
+		margin: 0 24px 15px 0;
+		width: 250px;
+	}
+
+	#resource_views {
+		margin-left: 0;
+		padding: 0 0 10px;
+	}
+
+	.resources_box_links {
+		margin: 0 0 0 10px;
+	}
+
+	.generic-webpart-zones ul {
+		margin: 0 3px 0 20px;
+	}
+
+	.breadcumb-main-menu > li:last-child > a {
+		padding: 5px 0;
+	}
+
+	.ms-webpartzone-cell {
+		margin: auto auto 10px;
+	}
+
+	.tree-view-cont {
+		width: 100%;
+	}
+
+	.tree-view-cont .tree-view {
+		width: 100% !important;
+	}
+	/****************** Generic Layout HR CSS Start Here **********************/
+	/****************** After Deployment CSS Fixes Start Here *****************/
+	.article-content-block .ms-rtestate-field ul {
+		margin-left: 0;
+	}
+
+	.generic-layout .box.full-width .compass {
+		width: auto;
+	}
+
+	.generic-layout .box.full-width .compass ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	.generic-layout .box.full-width .compass ul li {
+		margin: 4px 4px 4px 8px;
+		padding: 0;
+	}
+
+	.generic-layout .box.full-width .compass .colm {
+		width: 100%;
+		margin: 0;
+	}
+
+	.generic-layout .vertical-container {
+		margin-left: 0;
+	}
+
+	.generic-layout .vertical-container .box.half-width {
+		padding-left: 0;
+	}
+
+	.generic-layout .box.half-width {
+		width: 264px;
+	}
+
+	.generic-layout .half-width.right-box {
+		float: right;
+	}
+
+	div.box.box-type2.half-width.left-box.auto-section {
+		padding-right: 0;
+	}
+
+	.generic-layout .half-width.right-box .ms-rtestate-field table td {
+		padding: 3px;
+	}
+
+	.home-features-stories-cont {
+		min-height: 230px;
+	}
+
+	.main-search-cont .ms-srch-sb > input {
+		font-size: 16px !important;
+	}
+	/****************** After Deployment CSS Fixes Ends Here *******************/
+}
+/********************************************** min-width: 568px and max-width: 719px Wrapper Ends **********************************/
+/****************************************************** 720px Wrapper Starts ********************************************************/
+@media only screen and (min-width: 720px) and (max-width: 1023px) {
+	/******************** Layout Class Starts ********************/
+	.page-width {
+		width: 720px;
+		display: block;
+		margin: 0 auto !important;
+	}
+
+	.page-width .right-section,
+	.page-width > .left-section {
+		width: 100%;
+		display: block;
+	}
+
+	#ms-designer-ribbon {
+		display: none!important;
+	}
+
+	.main-cont .left-section,
+	.main-cont .right-section {
+		padding-bottom: 0;
+	}
+
+	.display-720-block {
+		display: block!important;
+	}
+
+	.hide-720 {
+		display: none;
+	}
+	/******************** Layout Class CSS Ends **********************/
+	/******************** Welcome Menu CSS Starts ********************/
+	.header {
+		z-index: 22;
+	}
+
+	.header .user-control-panel .sign-out-cont {
+		float: left;
+		width: 25%;
+		padding: 0;
+	}
+
+	.header .user-control-panel .my-site-cont {
+		padding: 0 0 0 35px;
+		float: left;
+		width: 25%;
+	}
+
+	.header .user-control-panel .my-VMSNet-cont {
+		width: 30%;
+		padding: 0 0 0 35px;
+		float: left;
+	}
+
+	.search-box-cont #SearchOptions {
+		display: none;
+	}
+
+	.main-search-cont {
+		display: block!important;
+	}
+
+	.mega-menu-content ul#main-nav > li > a {
+		padding: 10px 11px;
+	}
+
+	.user-control p {
+		width: auto;
+	}
+
+	.search-box-cont #SearchBox .ms-srch-sb > .ms-srch-sb-searchLink {
+		right: 3px;
+	}
+	/******************** Welcome Menu CSS Ends **********************/
+	/******************** Footer CSS Starts **************************/
+	.footer .page-width {
+		width: 720px;
+		display: block;
+	}
+
+	footer .page-width .right-section {
+		padding-left: 0 !important;
+	}
+
+	.page-width .right-section {
+		padding-top: 0 !important;
+	}
+
+	.footer .right-section {
+		display: block !important;
+		width: 33% !important;
+	}
+
+	footer .page-width .left-section {
+		width: 465px;
+		display: inline-block;
+		height: 98px;
+	}
+
+	.claim-note-cont .page-width .left-section {
+		width: 465px;
+	}
+
+	div#company-links {
+		width: 465px;
+	}
+
+	div#disclaimer {
+		top: 60px;
+	}
+
+	.social-network-cont {
+		width: 465px;
+	}
+
+	.footer .fa-warning {
+		left: 0;
+		margin-left: 15px;
+	}
+
+	.warning-cont {
+		margin: 30px 0 0 15px;
+	}
+
+	.warning-cont > li {
+		margin-bottom: 8px;
+	}
+
+	.claim-note-cont .page-width .right-section {
+		width: 228px;
+		float: right;
+	}
+
+	.footer-nav .main-menus {
+		width: 32%;
+		margin-bottom: 15px;
+	}
+
+	.grad-footer {
+		background: #aeb9bf;
+		/* Old browsers */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		/* FF3.6-15 */
+		/* Chrome10-25,Safari5.1-6 */
+		background: -webkit-gradient(linear, left top, right top, color-stop(50%, #aeb9bf), color-stop(50%, #fdb813));
+		background: linear-gradient(to right, #aeb9bf 50%, #fdb813 50%);
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeb9bf', endColorstr='#fdb813',GradientType=1 );*/
+		/* IE6-8 */
+		margin-top: 20px;
+	}
+
+	.grad-footer-claim-note {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a3adb3+50,fdb813+50 */
+		background: #a3adb3;
+		/* Old browsers */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* FF3.6-15 */
+		/* Chrome10-25,Safari5.1-6 */
+		background: -webkit-gradient(linear, left top, right top, color-stop(50%, #a3adb3), color-stop(50%, #fdb813));
+		background: linear-gradient(to right, #a3adb3 50%, #fdb813 50%);
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3adb3', endColorstr='#fdb813',GradientType=1 ); */
+		/* IE6-8 */
+		height: 45px;
+	}
+
+	.grad-footer .page-width {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aeb9bf+76,fdb813+76,fdb813+76 */
+		background: #aeb9bf;
+		/* Old browsers */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeb9bf', endColorstr='#fdb813',GradientType=1 ); */
+		/* IE6-8 */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* FF3.6+ */
+		/* Chrome,Safari4+ */
+		/* Chrome10+,Safari5.1+ */
+		/* Opera 11.10+ */
+		/* IE10+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(50%, #aeb9bf), color-stop(50%, #fdb813), color-stop(50%, #fdb813));
+		background: linear-gradient(to right, #aeb9bf 50%, #fdb813 50%, #fdb813 50%);
+		/* W3C */
+	}
+
+	.grad-footer-claim-note .claim-note {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a3adb3+76,fdb813+76 */
+		background: #a3adb3;
+		/* Old browsers */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3adb3', endColorstr='#fdb813',GradientType=1 );*/
+		/* IE6-8 */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* FF3.6+ */
+		/* Chrome,Safari4+ */
+		/* Chrome10+,Safari5.1+ */
+		/* Opera 11.10+ */
+		/* IE10+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(66%, #a3adb3), color-stop(63%, #fdb813));
+		background: linear-gradient(to right, #a3adb3 66%, #fdb813 63%);
+		/* W3C */
+	}
+
+	.main-cont .row-parent+.page-width {
+		clear: both;
+	}
+	/******************** Footer CSS Ends *******************************/
+	/******************** Home page CSS Starts **************************/
+	div.wd_quote.wd_quote-show_detail.wd_quote-onecol > div.wd_main-wrapper > div > div.wd_price > div.wd_quote-value-down {
+		left: -175px;
+		width: 350px;
+		top: 65px;
+		height: 3px;
+	}
+
+	div.wd_quote.wd_quote-show_detail.wd_quote-onecol > div.wd_main-wrapper > div > div.wd_price > div.wd_quote-value-up {
+		left: -175px;
+		width: 350px;
+		top: 65px;
+		height: 3px;
+	}
+
+	#stock_widget_container,
+	div.wd_widget {
+		width: auto;
+	}
+
+	div.wd_quote-wrapper {
+		max-width: 350px;
+	}
+
+	.featured-application .bx-next,
+	.landing-news .imaging-component .vmsNet-wire-cont .bx-next,
+	.vmsNet-wire-cont .bx-next {
+		/*right:-10px !important;*/
+	}
+
+	.featured-application .bx-prev,
+	.landing-news .imaging-component .vmsNet-wire-cont .bx-prev,
+	.vmsNet-wire-cont .bx-prev {
+		/*left:-10px !important;*/
+	}
+
+	.our-location-bg .left-side .select-location select {
+		border: none;
+		color: #aeb9bf;
+		width: 85px;
+	}
+
+	.featured-stories .slider-content-block {
+		width: 289px;
+	}
+
+	.featured-stories {
+		width: 700px;
+	}
+
+	.featured-stories .bx-wrapper .bx-viewport {
+		height: 280px!important;
+		width: 960px !important;
+	}
+
+	.featured-stories figure img,
+	.features-default-img img {
+		/* max-width: 53.85em;
+	    max-height: 21.50em;
+	    min-width: 53.85em;
+	    min-height: 21.50em;*/
+		position: relative;
+		right: 260px;
+		width: 960px;
+	}
+
+	.todays-varian-item .link {
+		margin-right: 5px;
+	}
+
+	.featured-application {
+		margin: 30px auto 0;
+		width: auto;
+	}
+
+	.vmsNet-wire-cont {
+		margin: 0;
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+
+	article.tab-cont {
+		display: none;
+	}
+
+	.home .var-bg {
+		float: left;
+		width: 350px;
+		margin: 0;
+	}
+
+	.varian-people-bg li {
+		margin: 0 0 5px;
+	}
+
+	.varian-people-bg .webpart-content .custom-scroll {
+		height: 185px !important;
+	}
+
+	.varian-people-bg .webpart-content {
+		height: 185px;
+	}
+
+	.notices-bg {
+		width: 340px !important;
+	}
+
+	.home .events-bg {
+		width: 220px;
+		float: right;
+		margin-left: 0;
+	}
+
+	.home .Emergency-bg {
+		width: 351px;
+		background: #FDB813;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		min-height: 115px;
+		margin-top: 10px !important;
+		float: left;
+		margin: 20px 0;
+		height: 115px;
+	}
+
+	.home .activity-feed-bg {
+		margin-top: -85px !important;
+		min-height: 210px;
+		float: right;
+		width: 335px;
+		min-height: 84px;
+		margin-top: 10px;
+	}
+
+	.home .activity-feed-bg .webpart-content {
+		height: 210px;
+	}
+
+	.home .activity-feed-bg .custom-scroll {
+		height: 210px !important;
+	}
+
+	.home .activity-feed-bg .activity-feed-bg {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+	/******************** Home Page CSS Ends Here *****************/
+	/******************** Mega Menu CSS Starts Here ***************/
+	#menu-org .corporate-services {
+		border-bottom: 1px solid #8ca3af;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		padding-top: 5px;
+	}
+
+	#org-menu .right-col > hr.divder {
+		display: none;
+	}
+
+	#menu-org .right-col .reg-site {
+		border-bottom: 1px solid #8ca3af;
+		margin: 0 0 15px;
+		padding-bottom: 15px;
+	}
+
+	.bx-wrapper .bx-controls-direction a {
+		z-index: 0;
+	}
+
+	#career-benefits .right-col .logo-list li {
+		width: 26%;
+	}
+
+	#resources .left-col .misc-links-2 {
+		border-bottom: 1px solid #8ca3af;
+		margin: 20px 0 10px;
+		padding-bottom: 10px;
+	}
+
+	#resources .left-col .corporate-services {
+		margin: 0 0 20px;
+	}
+
+	.mega-menu-cont {
+		display: block!important;
+	}
+	/*#main-nav li:hover #org-menu {
+		display: none;
+	}
+	#main-nav li:hover #news-menu {
+		display: none;
+	}
+	#main-nav li:hover #career-menu {
+		display: none;
+	}
+	#main-nav li:hover #resources-menu {
+		display: none;
+	}
+	#main-nav li:hover #community-menu {
+		display: none;
+	}*/
+	.mega-menu-content ul#main-nav > li > a.hover-inactive.active {
+		background: none;
+	}
+
+	.mega-menu-content ul#main-nav > li > a.click-active,
+	.mega-menu-content ul#main-nav > li > a.click-active.active {
+		background: url("../images/menu-arrow.png") no-repeat scroll center bottom;
+	}
+
+	.mega-menu-content ul#main-nav > li > a.click-active+.dropDownCont {
+		/*display:block!important*/
+	}
+	/*.submenu{
+		height:auto!important;
+		opacity: 1!important;
+	}*/
+	#menu-org .left-col {
+		width: 97%;
+		padding: 0 10px;
+	}
+
+	#menu-org .right-col {
+		width: 97%;
+		padding: 0 10px;
+		border-left: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		height: 100%;
+	}
+
+	#menu-org .right-col .ceo-qat-update,
+	#menu-org .right-col .oc-cl {
+		float: left;
+	}
+
+	#menu-org .right-col .ceo-qat-update {
+		padding: 0 0 0 0 !important;
+		float: left;
+		width: 50%;
+		margin: 0 0 15px 0 !important;
+		border-bottom: 1px solid #8ca3af;
+	}
+
+	#menu-org .right-col .ceo-qat-update li {
+		margin: 0 10px 15px;
+		padding: 3px 0 0;
+	}
+
+	#menu-org .business-unit .bus-unit-links {
+		margin: 0 0 20px;
+	}
+
+	#menu-org .business-unit .bus-unit-links .link-li {
+		width: 30%;
+	}
+
+	#menu-org .corporate-services ul.cop-ser-links:nth-child(2) {
+		width: 260px;
+	}
+
+	#menu-org .corporate-services ul.cop-ser-links:nth-child(3) {
+		width: 230px;
+	}
+
+	#menu-org .corporate-services ul.cop-ser-links:nth-child(4) {
+		width: 150px;
+	}
+
+	#menu-org .right-col .oc-cl {
+		margin: 0 0 15px 0 !important;
+		float: left;
+		width: 50%;
+		padding: 0;
+		border-bottom: 1px solid #8ca3af;
+	}
+
+	#menu-org .right-col .ceo-qat-update,
+	#menu-org .right-col .oc-cl {
+		padding: 0;
+	}
+
+	#news-event .right-col .left-module {
+		display: none;
+	}
+
+	#news-event .left-col {
+		width: 66%;
+		padding: 0 0 0 10px;
+	}
+
+	#menu-org .right-col .oc-cl .link {
+		float: left;
+		width: auto;
+		margin: 0 10px 10px;
+	}
+
+	#menu-org .right-col .reg-site li {
+		float: left;
+		width: 33%;
+	}
+
+	#menu-org .right-col .reg-site li.all-loc {
+		margin-left: -20px;
+	}
+
+	#menu-org .right-col .misc li:last-child {
+		margin-left: 34%;
+		margin-top: -16px;
+	}
+
+	#news-event .right-col {
+		width: 28%;
+	}
+
+	#news-event .right-col .left-module {
+		display: none;
+	}
+
+	#news-event .right-col .right-module {
+		width: 90%;
+		margin-left: 0;
+	}
+
+	#news-event .left-col .right-module {
+		margin-left: 0;
+		width: 30%;
+	}
+
+	#news-event .left-col .menu-wire-story .desc {
+		width: 64%;
+	}
+
+	#career-benefits .left-col {
+		width: 97%;
+		padding: 0 10px;
+	}
+
+	#career-benefits .hr-careers {
+		width: 100%;
+		margin: 0 0 20px;
+	}
+
+	.southspace2 {
+		margin-bottom: 5px;
+	}
+
+	#career-benefits .left-col .benefits-links:nth-child(2) {
+		margin-bottom: 5px;
+	}
+
+	#career-benefits .left-col .my-benefits {
+		border-bottom: 1px solid #8ca3af;
+		padding-bottom: 20px;
+		margin: 20px 0;
+	}
+
+	#career-benefits .right-col .common-link.forms-links {
+		margin: 0 0 0 10px;
+		width: auto;
+		float: none;
+	}
+
+	#career-benefits .right-col .common-link.forms-links li {
+		display: inline-block;
+		width: 33%;
+	}
+
+	#career-benefits .hr-careers .welcome-block {
+		width: 50%;
+	}
+
+	#career-benefits .hr-careers .job-opp {
+		width: 50%;
+		margin: 0;
+	}
+
+	#career-benefits .right-col {
+		width: 97%;
+		padding: 0 10px;
+		border-left: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	#career-benefits .right-col .welcome-block {
+		float: right;
+		margin-top: -49px;
+		margin-right: 137px;
+	}
+
+	#career-benefits .right-col .welcome-block .desc {
+		width: 239px;
+	}
+
+	#career-benefits .right-col .team-contacts {
+		margin-top: 19px;
+	}
+
+	#career-benefits .right-col .misc {
+		float: left;
+		width: 43%;
+	}
+
+	#career-benefits .right-col .careers {
+		float: left;
+		margin-top: -16px;
+	}
+
+	#resources .left-col {
+		width: 97%;
+		padding: 0 10px;
+		float: none;
+	}
+
+	#resources .right-col {
+		width: 97%;
+		padding: 0 10px;
+		border-left: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	#resources .right-col .app-tool {
+		float: left;
+		width: 50%;
+	}
+
+	#resources .right-col .app-tool {
+		float: left;
+		width: 50%;
+		margin-top: 20px;
+	}
+
+	#resources .right-col .app-thumb .thumb-intellisource {
+		margin-top: -17px;
+	}
+
+	#resources .right-col .misc-links-2 {
+		float: left;
+		width: 50%;
+		margin-top: 55px;
+	}
+
+	#community .left-col {
+		width: 23%;
+		padding: 0 30px 0 10px;
+	}
+
+	#community .middle-col {
+		width: 60%;
+		padding: 0 35px;
+	}
+
+	#community .right-col {
+		width: 97%;
+		padding: 20px 0 0 10px;
+		border-left: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	#community .right-col .divder {
+		display: none;
+	}
+
+	#community .right-col .misc-link-1 {
+		float: left;
+		width: 33%;
+		margin-top: 20px;
+	}
+
+	#community .right-col .misc-link-2 {
+		float: left;
+		width: 50%;
+		margin-top: 20px;
+	}
+	/******************** Mega Menu CSS Ends Here ************************/
+	/******************** Business Units CSS Starts Here *****************/
+	.business-unit .gallery-item .item-title {
+		padding: 0;
+	}
+
+	.business-unit .cbs-picture-img-link {
+		margin-bottom: 0;
+	}
+
+	.related-news .text {
+		margin-bottom: 10px;
+	}
+	/******************** Business Units CSS Ends Here ********************/
+	/******************** Corporate Services CSS Starts Here **************/
+	#Banner {
+		width: 100%;
+	}
+
+	.imaging-component-cont .imaging-component .notices-bg .colm {
+		margin: 0 0 20px 0 !important;
+	}
+
+	.org-char-cont .colm {
+		margin: 5px 10px 0 5px !important;
+	}
+
+	.main-cont .right-section {
+		padding-left: 0;
+	}
+
+	.see-also {
+		width: 720px;
+		margin-left: -10px;
+		margin-bottom: 20px;
+	}
+
+	article.see-also .s4-wpcell-plain {
+		float: left;
+		display: block;
+		width: 340px;
+		margin: 0 10px 20px;
+	}
+
+	article.see-also .s4-wpcell-plain .ms-webpart-chrome-vertical {
+		display: block;
+	}
+
+	.corporate-services-cont .item-info .northspace4 {
+		margin-top: 10px !important;
+	}
+
+	.corporate-services .cbs-picture-img-link {
+		margin-bottom: 0;
+	}
+
+	.search-result-cont .right-section .popular-searches {
+		display: none;
+	}
+
+	.search-result-cont .right-section .let-us-know {
+		margin-left: 15px;
+		float: left;
+		width: 220px;
+	}
+
+	.main-cont .right-section+.page-width {
+		clear: both;
+	}
+	/******************** Corporate Services CSS Ends Here *****************/
+	/******************** Article Archives CSS Starts **********************/
+	.bread-crumb-cont {
+		margin-bottom: 0;
+	}
+
+	.article-block .ms-socialCommentLoading input {
+		width: auto;
+		text-align: center !important;
+	}
+
+	.article-news-block .article-news-details .date {
+		margin: 12px 0 0 0!important !important;
+	}
+
+	.histogram_container,
+	.slider_extent_label_section,
+	.slideronly_container {
+		margin-left: 10px;
+	}
+
+	.contact-content .half-width {
+		width: 470px;
+		float: right;
+		padding-left: 0;
+	}
+
+	.popular-searches {
+		display: none;
+	}
+
+	.article-block .comments-section {
+		width: 100%;
+	}
+
+	.article-block .ms-socialCommentEdit table td div {
+		width: 100% !important;
+	}
+
+	#contactIntroText {
+		padding: 0;
+	}
+
+	.right-search {
+		width: 470px;
+		float: right !important;
+		padding-left: 0 !important;
+	}
+
+	.contact-content .ms-srch-sb-searchLink {
+		right: -18px;
+		top: -1px;
+	}
+	/******************** Article Archives CSS Ends  ************************/
+	/******************** New Landing Page CSS Starts  **********************/
+	.imaging-component.location-section-cont.news-landing-page .notices-bg {
+		width: 65.3%!important;
+		float: left;
+		margin: 0 0 20px;
+		height: 130px !important;
+	}
+
+	.news-landing-page .how-do-i {
+		width: 65.3%!important;
+		float: left;
+		margin: 0;
+	}
+
+	.landing-news .var-bg {
+		margin: 0;
+		float: right;
+		width: 222px;
+		margin-top: -103px !important;
+	}
+
+	.news-landing-page .ceo-update-block {
+		margin: 0 0 20px;
+	}
+
+	.imaging-component.location-section-cont.news-landing-page .activity-feed-bg {
+		width: 222px!important;
+		float: right;
+		margin: 0 0 20px;
+		min-height: 140px;
+		height: 130px;
+	}
+	/******************** New Landing Page CSS Ends here  **********************/
+	/******************** Community Landing Starts here ***********************/
+	.community-landing-page .spot-light-block {
+		width: 220px;
+		float: right;
+		margin: 0 0 20px;
+	}
+
+	.community-landing-page .newsfeed {
+		width: 460px!important;
+	}
+
+	.community-landing-page .community-events {
+		height: auto;
+	}
+
+	.community-landing-page .VMS-people .varian-people-continer {
+		height: 275px;
+		overflow: visible;
+	}
+
+	.VMS-people li {
+		margin: 0 0 6px;
+	}
+
+	.community-landing-page .VMS-people .webpart-content .custom-scroll {
+		height: 275px!important;
+	}
+
+	.page-info .info-text-cont {
+		width: 49%;
+		float: right;
+		margin-left: 0;
+	}
+
+	.page-info .main-img {
+		margin-right: 0;
+	}
+	/******************** Community Landing Ends here ***********************/
+	/******************** Article Details Page CSS Starts here **************/
+	.article-block .comments-section-btns {
+		height: 25px;
+	}
+
+	.article-block .comments-section-btns .show-comments {
+		font: 16px $font-semibold, Arial, Helvetica, sans-serif;
+		text-decoration: none;
+	}
+	/******************** Article Details Page CSS Ends here **************/
+	/******************** Image Gallery CSS Starts here *******************/
+	.photo-gallery .ms-tileview-tile-root {
+		width: 216px !important;
+		height: 157px !important;
+		margin: 20px 0 0 16px;
+	}
+
+	.photo-gallery .ms-tileview-tile-inner {
+		width: 216px !important;
+		height: 157px !important;
+	}
+
+	.photo-gallery .ms-tileview-tile-content {
+		width: 216px !important;
+		height: 157px !important;
+	}
+
+	.photo-gallery .ms-positionRelative {
+		width: 216px !important;
+		height: 157px !important;
+	}
+
+	.photo-gallery table.ms-listviewtable tr td > div {
+		position: relative;
+		left: -8px;
+		width: 100%;
+	}
+
+	.vmsnet-contentBox .error-page .error-content {
+		width: 700px;
+	}
+	/******************** Image Gallery CSS Ends here **************************/
+	/******************** Imaging Components CSS Starts here *******************/
+	.notice-scroll > a > img {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+
+	.slides-default-img .ms-srch-result-noResults {
+		width: 100%;
+		padding: 0;
+	}
+
+	#VMSSire-site-stories.vmsNet-wire-cont {
+		width: 100% !important;
+		margin-bottom: 20px;
+	}
+
+	.vmsNet-wire-cont li .wire-description .wire-text {
+		height: 50px;
+	}
+
+	.imaging-component .vmsNet-wire-cont li .wire-description {
+		width: 210px !important;
+		padding: 5px;
+	}
+
+	.imaging-component .featured-application {
+		margin: 0 0 20px 0 !important;
+	}
+
+	.imaging-component .management-team-cont .custom-scroll {
+		height: 366px !important;
+	}
+
+	.imaging-component-cont .imaging-component .notices-bg {
+		margin-left: 0;
+		float: right;
+	}
+
+	.imaging-component-cont .imaging-component .referrals {
+		width: 222px;
+		float: right;
+		margin: 0 0 20px;
+	}
+
+	.imaging-component .spot-light-block {
+		width: auto;
+		height: 103px;
+	}
+
+	.imaging-component .spot-light-block > li {
+		height: 100%;
+	}
+
+	.spot-light-block .only-text {
+		height: 142px;
+		padding: 0 !important;
+	}
+
+	.spot-light-block .only-text center {
+		height: 100%;
+	}
+
+	.how-do-i .common-select {
+		width: 99%;
+	}
+
+	.how-do-i .heading {
+		width: 87%;
+	}
+
+	.how-do-i .answer {
+		width: 98%;
+	}
+
+	.how-do-i {
+		padding: 0;
+		min-height: 103px;
+	}
+
+	.how-do-i .webpart-content {
+		min-height: 103px;
+	}
+
+	.how-do-i .webpart-content section {
+		padding: 10px;
+		min-height: 83px;
+	}
+	/******************** Imaging Components CSS Ends here ************************************/
+	/******************** Company Location CSS Starts here ************************************/
+	.company-location-main .location-section-cont .visitor-information {
+		clear: both;
+	}
+
+	.location-section-cont .visitor-information {
+		float: left;
+		margin: 0 0 20px;
+		min-height: 142px;
+	}
+
+	.location-section-cont .weather-conditions {
+		margin-left: 0;
+		width: 470px;
+		float: right;
+	}
+
+	.location-section-cont .quick-link-cont {
+		float: right;
+		margin: 0 0 20px;
+	}
+
+	.imaging-component.location-section-cont .management-team-cont.management-location .webpart-content {
+		height: 233px;
+	}
+
+	.location-section-cont .management-team-cont.management-location .custom-scroll {
+		height: 233px !important;
+	}
+
+	.location-section-cont .weather-conditions .weather-content .weather-icon {
+		width: auto;
+	}
+
+	.location-cont .map-cont {
+		width: 100%;
+	}
+	/******************** Company Location CSS Ends here *****************************/
+	/******************** News Landing pages CSS Starts here ************************/
+	.news-landing-page .spot-light-block {
+		min-height: 132px;
+		margin: 0 0 20px;
+		width: 340px !important;
+	}
+
+	.news-landing-page .activity-feed-bg {
+		min-height: 140px;
+		margin-right: 0;
+	}
+
+	.news-landing-page .activity-feed-bg .webpart-content {
+		height: 140px;
+	}
+
+	.news-landing-page .activity-feed-bg .custom-scroll {
+		height: 140px !important;
+	}
+
+	.news-landing-page .how-do-i {
+		width: 100%;
+	}
+
+	.landing-news .imaging-component .vmsNet-wire-cont {
+		width: 100% !important;
+		margin: 0 0 20px;
+	}
+
+	.landing-news .var-bg {
+		margin-top: 0;
+	}
+	/******************** News Landing pages CSS Ends here *****************/
+	/******************** Search Result Page CSS Starts here ***************/
+	.ajax__multi_slider_default .handle_noforcepressed,
+	.ajax__multi_slider_default .inner_rail_horizontal,
+	.slider_tick_active,
+	.slider_tick_inactive {
+		z-index: 0;
+	}
+
+	.ms-srch-group-title {
+		display: none;
+	}
+
+	.ms-disabled {
+		color: #6e8794 !important;
+		font-size: 14px;
+		font-family: $font-light;
+		word-wrap: break-word;
+		padding-top: 10px;
+	}
+
+	.contact-details #NoResult {
+		padding-left: 10px;
+	}
+
+	#SearchBox #AutoCompContainer {
+		width: 100%;
+	}
+
+	.search-result-cont .contact-content .half-width .ms-srch-item {
+		width: 430px;
+		margin: 0 !important;
+		padding: 10px 20px !important;
+	}
+
+	div.contact-details.half-width.auto-section.wide .ms-srch-item {
+		width: auto;
+	}
+
+	.search-result-cont .contact-content .ms-srch-item-body {
+		padding: 5px 0;
+	}
+
+	.search-result-cont .contact-details .ms-srch-item-title h3.ms-srch-ellipsis {
+		padding: 0;
+	}
+
+	.search-result-cont .contact-content .ms-srch-video-itemmain .ms-srch-item-video-path {
+		color: #5c707b;
+		font-size: 14px;
+		font-family: $font-regular;
+		width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.ms-srch-video-itemthumbnail {
+		margin: 0;
+	}
+
+	.ms-srch-video-itemmain h3 {
+		padding-top: 0;
+	}
+
+	.ms-srch-video-itemmain h3 a {
+		color: #5c707b;
+		font-size: 14px;
+		font-family: $font-regular;
+	}
+
+	.search-result-cont .contact-details .ms-srch-video-itemmain .ms-srch-item-summary {
+		color: #6e8794;
+		font-size: 14px;
+		font-family: $font-light;
+	}
+
+	.ms-srch-item-icon {
+		margin: 0;
+	}
+
+	.ms-srch-people-item #UserPersona {
+		height: 60px;
+	}
+
+	.search-result-cont .right-section .popular-searches {
+		display: none;
+	}
+
+	.inner-left-section .ms-ref-refiner #Value {
+		width: auto !important;
+	}
+
+	.inner-left-section #Container {
+		width: 100%;
+	}
+
+	.ms-ref-ctrl {
+		border-bottom: none!important;
+		margin-right: 0;
+	}
+
+	.inner-left-section .ms-ref-refinername {
+		background: #e7e8ea;
+	}
+
+	.search-result-cont .contact-content .contact-details {
+		width: 470px;
+		padding: 0;
+		float: right;
+	}
+
+	.search-result-cont .contact-content .contact-details.wide {
+		width: 700px;
+	}
+
+	.search-result-cont .contact-details .ms-srch-people-outerContainer {
+		width: 100%;
+		margin-bottom: 0 !important;
+	}
+
+	.contact-details .SearchResultPage .ms-srch-people-item {
+		width: 470px;
+		padding: 10px;
+	}
+
+	.contact-details .ms-srch-people-outerContainer .ms-srch-people-item {
+		width: auto;
+	}
+
+	.contact-details .ms-srch-people-outerContainer .ms-srch-people-item #UserPersonaContainer {
+		width: 69px !important;
+		height: 60px !important;
+	}
+
+	.half-width .SearchResultPage .ms-srch-people-item #SearchUserInfoContainer {
+		width: 365px;
+		float: left;
+		margin-left: 10px;
+	}
+
+	.let-us-know .ms-rtestate-field {
+		margin-top: 0;
+	}
+
+	.ms-srch-result #PagingLink a,
+	.ms-srch-result #PagingSelf a {
+		top: 3px;
+	}
+
+	.Contact-Refiner-Less,
+	.contact-content .Contact-Refiner-More {
+		padding-left: 10px;
+	}
+
+	.search-result-cont .ms-srch-hover-innerContainer {
+		display: none !important;
+	}
+	/************ Search Result Page CSS Ends here *****************/
+	/************ Contact Page CSS Starts here ********************/
+	.contact-cont .info-text-cont h4 {
+		margin-bottom: 0;
+	}
+
+	.contact-details .ms-srch-people-outerContainer {
+		margin-bottom: 20px !important;
+	}
+
+	.half-width .ms-srch-people-outerContainer .ms-srch-people-item #UserInfoContainer {
+		width: 155px !important;
+	}
+
+	.full-width .ms-srch-people-outerContainer .ms-srch-people-item #UserInfoContainer {
+		width: 250px !important;
+	}
+	/******************* Contact Page CSS Ends here **********************/
+	/******************* Human Resources Starts here *********************/
+	.corporate-services-main .how-do-i {
+		clear: both;
+	}
+
+	.corporate-services-main .org-char-cont {
+		margin-bottom: 13px!important;
+	}
+	/***************** Human Resources Ends here **************************/
+	.imaging-component-cont .org-char-cont h3 {
+		padding-top: 0;
+	}
+
+	.community-landing-page #VMSSire-site-stories.vmsNet-wire-cont {
+		margin-top: 20px;
+	}
+
+	.company-location-main .org-char-cont {
+		margin-bottom: 15px!important;
+	}
+
+	.article-content-block > #dvPublishDate {
+		padding-top: 10px;
+	}
+
+	.ms-socialCommentItem .socialcomment-contents {
+		width: auto;
+	}
+
+	.ms-socialCommentItem .socialcomment-bottom {
+		padding-bottom: 0;
+	}
+	/****************** Generic Layout HR CSS Start Here **********************/
+	.article-content-block > h3 {
+		padding: 0;
+	}
+
+	#resources_table {
+		width: 700px;
+	}
+
+	.resources_box {
+		margin: 0 8px 10px 0;
+	}
+
+	#resource_views {
+		margin-left: 0;
+		padding: 0 0 10px;
+	}
+
+	.resources_box_links {
+		margin: 0 0 0 10px;
+	}
+
+	.generic-webpart-zones ul {
+		margin: 0 3px 0 20px;
+	}
+
+	.breadcumb-main-menu > li:last-child > a {
+		padding: 5px 0;
+	}
+
+	.ms-webpartzone-cell {
+		margin: auto auto 10px;
+	}
+
+	.tree-view-cont {
+		width: 100%;
+	}
+
+	.tree-view-cont .tree-view {
+		width: 100% !important;
+	}
+	/****************** Generic Layout HR CSS Start Here **********************/
+	/****************** After Deployment CSS Fixes Start Here *****************/
+	.article-content-block .ms-rtestate-field ul {
+		margin-left: 0;
+	}
+
+	.generic-layout .box.full-width .compass {
+		width: auto;
+	}
+
+	.generic-layout .box.full-width .compass ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	.generic-layout .box.full-width .compass ul li {
+		margin: 4px 4px 4px 8px;
+		padding: 0;
+	}
+
+	.generic-layout .vertical-container {
+		margin-left: 0;
+	}
+
+	.generic-layout .vertical-container .box.half-width {
+		padding-left: 0;
+	}
+
+	.generic-layout .box.half-width {
+		width: 350px;
+	}
+
+	.generic-layout .half-width.right-box {
+		float: right;
+	}
+
+	.generic-layout .half-width.right-box .ms-rtestate-field TABLE {
+		width: 100%;
+	}
+
+	.home .our-people-bg {
+		float: right;
+		margin-left: 0;
+	}
+	/****************** After Deployment CSS Fixes Ends Here ******************/
+}
+/****************************************** 720px Wrapper Ends ************************************************************/
+/****************************************** 1024px Wrapper Starts *********************************************************/
+/************************************************************************
+*(min-width: 1024px) was added to support responsive for 1024 resolution.
+* This will also helpfull to keep main.css as is ,
+*
+*************************************************************************/
+@media only screen and (min-width: 1024px) and (max-width:1279px) {
+	#ms-designer-ribbon,
+	.emergency-contact {
+		/*display:none!important;*/
+	}
+
+	.header {
+		z-index: 22!important;
+	}
+	/*section.submenu {
+	    opacity: 1!important;
+	    height:auto!important;
+	}*/
+	.bx-wrapper .bx-controls-direction a,
+	.vms-tab .nav-tabs li.active a {
+		z-index: 10;
+	}
+
+	.page-width .right-section {
+		width: 220px;
+		padding-left: 0;
+	}
+
+	.page-width > .left-section {
+		width: 700px;
+	}
+
+	.user-control p {
+		width: auto;
+	}
+	/**************Home page CSS starts here **************************/
+	.warning-cont {
+		margin: 15px 0 0 10px;
+	}
+
+	.home .notices-bg .custom-scroll {
+		height: 140px !important;
+	}
+
+	#btnRemove {
+		text-align: center !important;
+		text-indent: -2px;
+		padding: 0;
+	}
+
+	.home .events-bg {
+		float: right;
+		margin-left: 0;
+		width: 220px;
+	}
+
+	.home .our-people-bg {
+		float: right;
+		margin-left: 0;
+	}
+
+	.featured-stories figure img,
+	.features-default-img img {
+		position: relative;
+		right: 260px;
+		width: 960px;
+		/*height:100%;*/
+	}
+
+	.featured-stories figure {}
+
+	.featured-stories .bx-wrapper .bx-viewport {
+		width: 960px !important;
+	}
+	/**************Home page CSS ends here **************************/
+	/**************Article Archive CSS starts here ******************/
+	.popular-searches {
+		display: none;
+	}
+
+	.ms-ref-ctrl {
+		border-bottom: none!important;
+		margin-right: 0;
+	}
+
+	.inner-left-section #Container {
+		width: 100%;
+	}
+
+	.inner-left-section .ms-ref-refinername {
+		background: #e7e8ea;
+	}
+
+	.inner-left-section .ms-ref-refiner #Value {
+		width: auto !important;
+	}
+
+	.histogram_container,
+	.slider_extent_label_section,
+	.slideronly_container {
+		margin-left: 10px;
+	}
+
+	.ajax__multi_slider_default .handle_noforcepressed,
+	.ajax__multi_slider_default .inner_rail_horizontal,
+	.slider_tick_active,
+	.slider_tick_inactive {
+		z-index: 0;
+	}
+
+	.ms-srch-result #PagingLink a,
+	.ms-srch-result #PagingSelf a {
+		top: 3px;
+	}
+
+	.Contact-Refiner-Less,
+	.contact-content .Contact-Refiner-More {
+		padding-left: 10px;
+	}
+	/**************Article Archive CSS ends here **********************/
+	/**************Article Details CSS Starts here ********************/
+	.article-block .ms-socialCommentLoading input {
+		width: auto;
+		text-align: center !important;
+	}
+
+	.ms-socialCommentItem .socialcomment-contents {
+		width: auto;
+	}
+	/**************Article Details CSS ends here ************************/
+	/**************Business Units CSS Starts here ***********************/
+	.business-unit .gallery-item .item-title {
+		padding: 0;
+	}
+
+	.business-unit .cbs-picture-img-link {
+		margin-bottom: 0;
+	}
+
+	.related-news .text {
+		margin-bottom: 10px;
+	}
+	/************** Business Units CSS Ends here **************************/
+	/************** Business Units ICB CSS Starts here ********************/
+	.imaging-component-cont .imaging-component .management-team-cont .custom-scroll {
+		height: 366px !important;
+	}
+
+	.imaging-component .vmsNet-wire-cont li .wire-description {
+		width: 210px !important;
+		padding: 5px;
+	}
+
+	.vmsNet-wire-cont li .wire-description .wire-text {
+		height: 50px;
+	}
+
+	.notice-scroll > a > img {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+
+	.slides-default-img .ms-srch-result-noResults {
+		width: 100%;
+		padding: 0;
+	}
+
+	#VMSSire-site-stories.vmsNet-wire-cont {
+		width: 700px;
+	}
+	/************** Business Units ICB CSS Ends here ******************************/
+	/************** Corporate Services landing Page CSS Starts ********************/
+	.corporate-services-cont .item-info .northspace4 {
+		margin-top: 0 !important;
+	}
+
+	.imaging-component-cont .imaging-component .notices-bg {
+		width: 460px !important;
+		margin-left: 0;
+		float: right;
+	}
+
+	.imaging-component-cont .imaging-component .referrals {
+		width: 222px;
+		float: right;
+		margin: 0 0 20px;
+	}
+
+	.imaging-component .spot-light-block {
+		width: 222px;
+		height: 100%;
+	}
+
+	.imaging-component .spot-light-block > li {
+		height: 100%;
+	}
+
+	.spot-light-block .only-text {
+		height: 103px;
+		padding: 0 !important;
+	}
+
+	.spot-light-block .only-text center {
+		height: 100%;
+	}
+
+	.page-info .info-text-cont {
+		width: 49%;
+		float: right;
+		margin-left: 0;
+	}
+
+	.page-info .main-img {
+		margin-right: 0;
+	}
+
+	.imaging-component-cont .imaging-component .management-team-cont {
+		width: 225px;
+	}
+
+	.imaging-component-cont .how-do-i {
+		padding: 0;
+		min-height: 103px;
+	}
+
+	.how-do-i .webpart-content {
+		min-height: 103px;
+	}
+
+	.how-do-i .webpart-content section {
+		padding: 10px;
+		min-height: 83px;
+	}
+
+	.how-do-i .common-select {
+		width: 100%;
+	}
+
+	.how-do-i .answer {
+		width: 98%;
+	}
+
+	.colm {
+		margin: 0 0 20px;
+	}
+
+	.org-char-cont,
+	.org-char-cont h3 {
+		width: 700px;
+	}
+
+	.tree-view-cont,
+	.tree-view-cont .tree-view {
+		width: auto !important;
+	}
+	/************** Corporate Services landing Page CSS Starts ********************/
+	/************** News landing Page CSS Starts *********************************/
+	.landing-news .imaging-component .vmsNet-wire-cont {
+		width: 100% !important;
+		margin: 0 0 20px;
+	}
+
+	.news-landing-page .ceo-update-block {
+		margin: 0 0 20px;
+	}
+
+	.landing-news .imaging-component .vmsNet-wire-cont .bx-next {
+		right: -10px !important;
+	}
+
+	.landing-news .imaging-component .vmsNet-wire-cont .bx-prev {
+		left: -10px !important;
+	}
+
+	.news-landing-page .spot-light-block {
+		min-height: 132px;
+		margin: 0 0 20px;
+		width: 340px !important;
+	}
+
+	.imaging-component.location-section-cont.news-landing-page .notices-bg {
+		width: 65.3%!important;
+		float: left;
+		margin: 0 0 20px;
+		height: 130px !important;
+	}
+
+	.imaging-component.location-section-cont.news-landing-page .activity-feed-bg {
+		width: 222px!important;
+		float: right;
+		margin: 0 0 20px;
+	}
+
+	.news-landing-page .how-do-i {
+		width: 65.3%!important;
+		float: left;
+		margin: 0 0 20px;
+	}
+
+	.landing-news .ceo-update-block .wire-description {
+		padding: 5px 10px;
+	}
+	/************** News landing Page CSS Ends *********************************/
+	/************** Community landing Page CSS Starts **************************/
+	.community-landing-page .info-text-cont h4 {
+		margin-bottom: 0;
+	}
+
+	.community-landing-page .community-events {
+		height: auto;
+	}
+
+	.community-landing-page .spot-light-block {
+		width: 220px;
+		margin: 0 0 20px;
+		float: right;
+		height: auto;
+		min-height: 0;
+	}
+
+	.VMS-people .webpart-content {
+		height: 278px;
+	}
+
+	.community-landing-page .VMS-people .webpart-content .custom-scroll {
+		height: 275px !important;
+	}
+
+	.community-landing-page .VMS-people .varian-people-continer {
+		height: auto;
+	}
+
+	.VMS-people li {
+		margin: 0 0 6px;
+	}
+	/************** Community landing Page CSS Ends *********************************/
+	/************** Company landing Page CSS Starts *********************************/
+	.corporate-services .gallery-item {
+		height: auto !important;
+	}
+
+	.page-info h1 {
+		margin-bottom: 5px;
+	}
+
+	.corporate-services-cont .northspace3 {
+		margin-top: 0;
+	}
+
+	.bread-crumb-cont {
+		margin-bottom: 0;
+	}
+
+	.corporate-services .cbs-picture-img-link {
+		margin-bottom: 0;
+	}
+
+	.location-section-cont .location-cont {
+		width: 220px;
+	}
+
+	.imaging-component-cont .location-section-cont .notices-bg {
+		width: 220px !important;
+	}
+
+	.location-section-cont .quick-link-cont {
+		width: 220px;
+		float: right;
+		margin: 0 0 20px;
+	}
+
+	.location-cont .map-cont {
+		width: 100%;
+	}
+
+	.location-section-cont .visitor-information {
+		width: 225px;
+		margin: 0 0 20px;
+		min-height: 142px;
+	}
+
+	.location-section-cont .weather-conditions {
+		float: right;
+		margin: 0 0 20px;
+		width: 460px;
+	}
+
+	.location-section-cont .weather-conditions .weather-content .weather-icon {
+		width: auto;
+	}
+
+	.imaging-component.location-section-cont .management-team-cont.management-location .webpart-content {
+		height: 233px;
+	}
+
+	.location-section-cont .management-team-cont.management-location .custom-scroll {
+		height: 233px !important;
+	}
+	/************** Company landing Page CSS Ends *********************************/
+	/************** Contact Page CSS  Starts here *********************************/
+	#contactIntroText {
+		padding: 0;
+	}
+
+	.contact-cont .custom-scroll {
+		padding: 0 10px 0 0 !important;
+	}
+
+	.contact-list-cont .inner-left-section {
+		width: 100%;
+	}
+
+	.contact-content .half-width {
+		width: 470px;
+		float: right;
+		padding-left: 0;
+	}
+
+	.search-result-cont .contact-content .contact-details.wide {
+		width: 700px;
+	}
+
+	.contact-content .ms-srch-sb-searchLink {
+		right: -15px;
+		top: -1px;
+	}
+
+	.right-search {
+		width: 470px;
+		float: right !important;
+		padding-left: 0 !important;
+	}
+
+	.contact-details .ms-srch-people-outerContainer {
+		margin-bottom: 20px !important;
+	}
+
+	.contact-details .ms-srch-people-outerContainer .ms-srch-people-item {
+		width: 470px;
+		padding: 10px;
+	}
+
+	.half-width .SearchResultPage .ms-srch-people-item #SearchUserInfoContainer {
+		float: left;
+		width: 380px;
+		margin-left: 10px;
+	}
+
+	.contact-details .ms-srch-people-outerContainer .ms-srch-people-item #UserPersonaContainer {
+		width: 69px !important;
+		height: 60px !important;
+	}
+
+	.ms-srch-people-item #UserPersona {
+		height: 60px;
+	}
+
+	.half-width .ms-srch-people-outerContainer .ms-srch-people-item #UserInfoContainer {
+		width: 153px !important;
+	}
+	/************** Contact Page CSS  Ends here *****************************************/
+	/************** Search Result page CSS  Starts here *********************************/
+	.ms-srch-group-title {
+		display: none;
+	}
+
+	.search-result-cont .contact-details .ms-srch-people-outerContainer {
+		margin-bottom: 0 !important;
+	}
+
+	.search-result-cont .contact-content .half-width .ms-srch-item {
+		width: 430px;
+	}
+
+	div.contact-details.half-width.auto-section.wide .ms-srch-item {
+		width: auto;
+	}
+
+	.search-box-cont #SearchBox .ms-srch-sb > .ms-srch-sb-searchLink {
+		right: 3px;
+	}
+
+	.search-result-cont .contact-content .ms-srch-item {
+		margin: 5px 0 5px 0 !important;
+		padding: 10px 20px !important;
+	}
+
+	.ms-srch-item-icon {
+		margin: 0;
+	}
+
+	.search-result-cont .contact-details .ms-srch-item-title h3.ms-srch-ellipsis {
+		padding: 0;
+	}
+	/***Video***/
+	.ms-srch-item-icon {
+		margin: 0;
+	}
+
+	.search-result-cont .contact-content .ms-srch-video-itemmain .ms-srch-item-video-path {
+		color: #5c707b;
+		font-size: 14px;
+		font-family: $font-regular;
+		width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.ms-srch-video-itemthumbnail {
+		margin: 0;
+	}
+
+	.ms-srch-video-itemmain h3 {
+		padding-top: 0;
+	}
+
+	.ms-srch-video-itemmain h3 a {
+		color: #5c707b;
+		font-size: 14px;
+		font-family: $font-regular;
+	}
+
+	.search-result-cont .contact-details .ms-srch-video-itemmain .ms-srch-item-summary {
+		color: #6e8794;
+		font-size: 14px;
+		font-family: $font-light;
+	}
+
+	.ms-srch-video-itemmain {
+		width: 100%;
+		padding-bottom: 0;
+	}
+
+	.contact-cont .inner-left-section .ms-ref-unsel-shortList .ms-ref-name {
+		margin-left: 5px;
+	}
+
+	.inner-left-section #Container div input {
+		margin-top: 0;
+	}
+	/***Video***/
+	/************** Search Result page CSS  Ends here *********************************/
+	/****************** Generic Layout HR CSS Start Here **********************/
+	.article-content-block > h3 {
+		/*padding:0px;*/
+	}
+
+	#resource_views {
+		margin-left: 0;
+		padding: 0 0 10px;
+	}
+
+	.resources_box_links {
+		margin: 0 0 0 10px;
+	}
+
+	.generic-webpart-zones ul {
+		margin: 0 3px 0 20px;
+	}
+
+	.breadcumb-main-menu > li:last-child > a {
+		padding: 5px 0;
+	}
+
+	.ms-webpartzone-cell {
+		margin: auto auto 10px;
+	}
+
+	.tree-view-cont {
+		width: 100%;
+	}
+
+	.tree-view-cont .tree-view {
+		width: 100% !important;
+	}
+	/****************** Generic Layout HR CSS Start Here **********************/
+	/****************** After Deployment CSS Fixes Start Here *****************/
+	.article-content-block .ms-rtestate-field ul {
+		margin-left: 0;
+	}
+
+	.generic-layout .box.full-width .compass {
+		width: auto;
+	}
+
+	.generic-layout .box.full-width .compass ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	.generic-layout .box.full-width .compass ul li {
+		margin: 4px 4px 4px 8px;
+		padding: 0;
+	}
+
+	.generic-layout .box.full-width .compass .colm {
+		margin: 0 20px 20px 0;
+	}
+
+	.generic-layout .vertical-container {
+		margin-left: 0;
+	}
+
+	.generic-layout .vertical-container .box.half-width {
+		padding-left: 0;
+	}
+
+	.generic-layout .box.half-width {
+		width: 350px;
+	}
+
+	.generic-layout .half-width.right-box {
+		float: right;
+	}
+
+	.generic-layout .half-width.right-box .ms-rtestate-field TABLE {
+		width: 100%;
+	}
+	/****************** After Deployment CSS Fixes Ends Here *****************/
+}
+/******************************************* 1080px Wrapper Starts (MinWidth 1280px) *****************************************/
+@media only screen and (min-width: 1280px) {
+	/***************** Home Page Css Starts ***************************/
+	.page-width {
+		width: 1200px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.page-width .right-section {
+		width: 220px;
+		padding-left: 0;
+	}
+
+	.page-width > .left-section {
+		width: 960px;
+	}
+
+	.menu-overlay {
+		display: none!important;
+	}
+
+	.header .main-search-cont {
+		display: block!important;
+	}
+
+	.search-box-cont #SearchBox .ms-srch-sb > .ms-srch-sb-searchLink {
+		right: 2px;
+	}
+
+	.ms-srch-group-title {
+		display: none;
+	}
+	/***************** Home Page Css Ends ***************************/
+	/***************** Mega Menu CSS Starts ************************/
+	#menu-org .left-col {
+		padding: 0 20px 0 0;
+	}
+
+	#menu-org .right-col {
+		width: auto;
+		padding: 0 0 0 20px;
+	}
+
+	#news-event .left-col {
+		padding: 0 20px 0 0;
+	}
+
+	#news-event .left-col .right-module {
+		width: auto;
+		margin-left: 0;
+	}
+
+	#news-event .right-col {
+		width: 38% !important;
+		padding: 0 0 0 20px;
+	}
+
+	#news-event .left-col .menu-wire-story .desc {
+		width: calc(100% - 100px);
+	}
+
+	#career-benefits .left-col {
+		width: 50% !important;
+		padding: 0 20px 0 0;
+	}
+
+	#career-benefits .right-col {
+		width: 45% !important;
+		padding: 0 0 0 20px;
+	}
+
+	#resources .left-col {
+		width: 55%;
+		padding: 0 20px 0 0;
+	}
+
+	#resources .right-col {
+		width: 35%;
+		padding: 0 0 0 20px;
+	}
+
+	.hr-careers {
+		width: 100%;
+	}
+
+	.hr-careers .welcome-block {
+		width: 60%;
+	}
+
+	.hr-careers .job-opp {
+		width: auto;
+		float: right;
+		margin: 0 10px;
+	}
+
+	.hr-careers .welcome-block .desc {
+		width: 250px;
+	}
+
+	.mega-menu-content {
+		width: 1200px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.mega-menu-content ul#main-nav > li.home {
+		margin-left: 0;
+	}
+
+	.submenu .page-width {
+		padding: 0 10px;
+	}
+
+	#news-event .left-col {
+		width: 50%;
+	}
+
+	#news-event .right-col {
+		width: 32%;
+	}
+
+	#career-benefits .left-col {
+		width: 50%;
+	}
+
+	#career-benefits .right-col {
+		width: 46%;
+	}
+
+	#resources .left-col {
+		width: auto;
+	}
+
+	#resources .right-col {
+		width: auto;
+	}
+
+	.related-news .text {
+		margin-bottom: 10px;
+	}
+	/***************** Mega Menu CSS Ends ********************************/
+	/***************** Article Archive CSS Starts ************************/
+	.contact-list-cont .inner-left-section {
+		width: 100%;
+	}
+
+	.article-news-block .contact-content .half-width {
+		width: 640px !important;
+		padding: 5px 0 0;
+	}
+
+	.article-block .comments-section {
+		width: 100%;
+	}
+
+	.article-block .ms-socialCommentEdit table td div {
+		width: 100% !important;
+	}
+
+	.article-news-block .inner-right-section .ms-srch-sbLarge > input {
+		width: 590px !important;
+	}
+
+	.ms-srch-result #PagingLink a,
+	.ms-srch-result #PagingSelf a {
+		top: 3px;
+	}
+
+	.popular-searches {
+		display: none;
+	}
+
+	.ms-ref-refineritem {
+		width: 95%;
+	}
+	/*****************  Article Archive CSS Ends **************************/
+	/*****************  Article Details CSS Starts ************************/
+	.article-block .ms-socialCommentLoading input {
+		width: auto;
+		text-align: center !important;
+	}
+	/*****************  Article Details CSS Ends ************************/
+	.vms-tab #tab_4_contents .link-list a {
+		width: calc(100% - 25px);
+	}
+
+	.home .today-at-varian {
+		margin: 10px 0;
+	}
+
+	.page-width .right-section {
+		padding-bottom: 0;
+	}
+
+	.home .activity-feed-bg {
+		margin: 0 0 20px;
+	}
+
+	.home .vmsNet-wire-cont .today-at-varian {
+		margin: 12px 0 !important;
+		padding: 0 !important;
+	}
+
+	header {
+		z-index: 100;
+	}
+
+	.search-box-cont {
+		margin-right: 0;
+	}
+
+	.mega-menu-cont {
+		display: block!important;
+	}
+
+	.featured-stories {
+		width: 100%;
+	}
+
+	.featured-stories figure img,
+	.features-default-img img {
+		/* max-width: 76em;
+	    max-height: 21.55em;
+	    min-width: 76em;
+	    min-height: 21.55em;*/
+		/*height:100%;*/
+		width: 960px;
+	}
+
+	.features-default-img {
+		width: 960px;
+	}
+
+	.featured-stories figure {
+		width: 960px;
+		margin-right: 20px;
+		overflow: hidden;
+	}
+
+	.featured-stories .slider-content-block {
+		width: 580px;
+	}
+
+	.featured-stories .bx-controls {
+		left: 570px;
+	}
+
+	.varian-people-bg {
+		width: 350px;
+	}
+
+	.home .events-bg {
+		width: 350px;
+		float: right;
+		margin: 0 0 20px;
+	}
+
+	.varian-people-bg .var-people li {
+		width: 100%!important;
+	}
+
+	.varian-people-bg .webpart-content .custom-scroll {
+		height: 188px !important;
+	}
+
+	.varian-people-bg .webpart-content {
+		height: 188px;
+	}
+
+	.events-bg li a.cbs-Line1Link {
+		width: 83%;
+	}
+
+	.todays-varian-item .link {
+		margin-right: 5px;
+	}
+
+	.home .our-people-bg {
+		width: 350px;
+		float: right;
+		margin-left: 0;
+		height: 142px;
+	}
+
+	.home .our-people-bg .custom-scroll {
+		height: 150px !important;
+	}
+
+	.home .our-people-bg .webpart-content {
+		height: 150px;
+	}
+
+	.spot-light-block .only-image {
+		height: 140px;
+		padding: 0;
+	}
+
+	.home .notices-bg {
+		width: 590px!important;
+		height: 142px;
+	}
+
+	.home .notices-bg .webpart-content {
+		height: 150px !important;
+	}
+
+	.home .notices-bg .custom-scroll {
+		height: 148px !important;
+	}
+
+	.home .notices-bg ul.cbs-List-Notices {
+		margin: 0 !important;
+	}
+
+	footer .page-width .left-section {
+		width: 960px;
+	}
+
+	.social-network-cont {
+		width: 960px;
+	}
+
+	.claim-note-cont .page-width .left-section {
+		width: 960px;
+	}
+
+	.our-location-bg {
+		width: 220px;
+	}
+
+	.grad-footer .page-width {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aeb9bf+76,fdb813+76,fdb813+76 */
+		background: #aeb9bf;
+		/* Old browsers */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeb9bf', endColorstr='#fdb813',GradientType=1 ); */
+		/* IE6-8 */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* FF3.6+ */
+		/* Chrome,Safari4+ */
+		/* Chrome10+,Safari5.1+ */
+		/* Opera 11.10+ */
+		/* IE10+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(80%, #aeb9bf), color-stop(80%, #fdb813), color-stop(80%, #fdb813));
+		background: linear-gradient(to right, #aeb9bf 80%, #fdb813 80%, #fdb813 80%);
+		/* W3C */
+	}
+
+	.grad-footer-claim-note .claim-note {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a3adb3+76,fdb813+76 */
+		background: #a3adb3;
+		/* Old browsers */
+		/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3adb3', endColorstr='#fdb813',GradientType=1 );*/
+		/* IE6-8 */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZX");
+		/* FF3.6+ */
+		/* Chrome,Safari4+ */
+		/* Chrome10+,Safari5.1+ */
+		/* Opera 11.10+ */
+		/* IE10+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(80%, #a3adb3), color-stop(80%, #fdb813));
+		background: linear-gradient(to right, #a3adb3 80%, #fdb813 80%);
+		/* W3C */
+	}
+	/****************** Imaging Components CSS Starts **********************/
+	.home .vmsNet-wire-cont li,
+	.imaging-component .vmsNet-wire-cont li {
+		width: 320px;
+	}
+
+	.imaging-component .notices-bg {
+		width: 720px!important;
+		margin-left: 0;
+		float: right;
+	}
+
+	.imaging-component .vmsNet-wire-cont .wire-description,
+	.vmsNet-wire-cont li .wire-description {
+		width: 188px;
+		padding: 5px 10px;
+	}
+
+	.imaging-component .varian-people-bg {
+		width: 316px;
+	}
+
+	#VMSSire-site-stories.vmsNet-wire-cont,
+	.home .vmsNet-wire-cont {
+		width: 100%;
+	}
+
+	.page-info .info-text-cont {
+		width: 62.5%;
+		float: right;
+		margin-left: 0;
+	}
+
+	.page-info .main-img {
+		margin-right: 0;
+	}
+
+	.imaging-component .spot-light-block {
+		width: 100%;
+		height: 100%;
+	}
+
+	.imaging-component .spot-light-block > li {
+		height: 100%;
+	}
+
+	.spot-light-block .only-text {
+		height: 103px;
+		/*padding:5px 10px 5px 10px;*/
+	}
+
+	.spot-light-block .only-text center {
+		height: 100%;
+	}
+
+	.referrals {
+		width: 316px;
+	}
+
+	.imaging-component .how-do-i {
+		width: 580px;
+		clear: both;
+		padding: 0;
+		min-height: 103px;
+	}
+
+	.how-do-i .webpart-content {
+		min-height: 103px;
+	}
+
+	.how-do-i .webpart-content section {
+		padding: 10px;
+		min-height: 83px;
+	}
+
+	.vmsNet-wire-cont li .wire-description .wire-text {
+		height: 55px;
+	}
+	/****************** Imaging Components CSS Ends ************************/
+	/****************** Community Landing CSS Starts ***********************/
+	.community-landing-page .VMS-people {
+		width: 220px;
+	}
+
+	.community-landing-page .spot-light-block {
+		width: 350px!important;
+		float: right;
+		margin-left: 0;
+	}
+
+	.community-landing-page .newsfeed {
+		width: 720px!important;
+		float: right;
+		margin: 0 0 20px;
+	}
+
+	.community-landing-page .bravo-awards {
+		width: 100%;
+		margin-bottom: 22px;
+	}
+
+	.community-landing-page .community-events {
+		height: auto;
+		width: 350px !important;
+	}
+
+	.VMS-people .varian-people-continer {
+		height: auto;
+	}
+
+	.community-landing-page .VMS-people .webpart-content .custom-scroll {
+		height: 275px!important;
+	}
+
+	.VMS-people li,
+	.varian-people-bg li {
+		margin: 0 0 6px;
+	}
+	/****************** Community Landing CSS Ends ***********************/
+	/****************** News Landing CSS Starts *************************/
+	.news-main .news-img-block {
+		width: 230px;
+	}
+
+	.landing-news .imaging-component .vmsNet-wire-cont {
+		width: 100% !important;
+		margin: 0 0 20px;
+	}
+
+	.news-landing-page .ceo-update-block {
+		width: 460px;
+		margin: 0 0 20px;
+	}
+
+	.news-landing-page .spot-light-block {
+		width: 480px;
+		min-height: 132px;
+		margin: 0 0 20px;
+		float: right;
+	}
+
+	.landing-news .imaging-component .vmsNet-wire-cont .bx-next {
+		right: -10px !important;
+	}
+
+	.landing-news .imaging-component .vmsNet-wire-cont .bx-prev {
+		left: -10px !important;
+	}
+
+	.news-landing-page .activity-feed-bg {
+		min-height: 243px;
+		width: 220px;
+		margin: 0 0 20px;
+	}
+
+	.news-landing-page .activity-feed-bg .custom-scroll {
+		height: 260px !important;
+	}
+
+	.news-landing-page.location-section-cont.news-landing-page .notices-bg {
+		width: 720px!important;
+		float: left;
+		margin: 0 0 20px;
+	}
+
+	.news-landing-page .how-do-i {
+		width: 720px;
+		margin: 0 0 20px;
+		float: left;
+		clear: none;
+	}
+
+	.news-landing-page .feature-news-title {
+		width: 98%;
+	}
+
+	.landing-news .ceo-update-block .wire-description {
+		padding: 5px 10px;
+		width: 330px;
+	}
+
+	.landing-news .ceo-update-block .wire-thumb {
+		width: 130px;
+	}
+	/****************** News Landing CSS Ends *************************/
+	/************** Company landing Page CSS Starts *********************************/
+	.company-location-main .location-cont .map-cont {
+		width: 100%;
+	}
+
+	.imaging-component.location-section-cont .notices-bg {
+		width: 360px!important;
+		float: right;
+		margin: 0 0 20px;
+	}
+
+	.location-section-cont .quick-link-cont {
+		width: 360px;
+		float: right;
+		margin: 0 0 20px;
+	}
+
+	.location-section-cont .weather-conditions {
+		width: 720px;
+		float: right;
+		margin: 0 0 20px;
+	}
+
+	.company-location-main .weather-conditions .custom-scroll {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.location-section-cont .visitor-information {
+		width: 220px;
+		margin: 0 0 20px;
+		min-height: 142px;
+	}
+
+	.corporate-services .gallery-item {
+		height: 210px !important;
+	}
+
+	.page-info h1 {
+		margin-bottom: 5px;
+	}
+
+	.corporate-services-cont .northspace3 {
+		margin-top: 0;
+	}
+
+	.bread-crumb-cont {
+		margin-bottom: 0;
+	}
+
+	.location-section-cont .weather-conditions .weather-content .weather-icon {
+		width: auto;
+	}
+
+	.imaging-component.location-section-cont .management-team-cont.management-location .webpart-content {
+		height: 233px;
+	}
+
+	.location-section-cont .management-team-cont.management-location .custom-scroll {
+		height: 233px !important;
+	}
+
+	.location-cont .map-cont {
+		width: 100%;
+	}
+
+	.location-section-cont .quick-link-cont .custom-scroll {
+		height: 125px!important;
+	}
+	/************** Company landing Page CSS Ends *************************/
+	/************************** Events page CSS  Starts *******************/
+	#CalendarContainer .jq-calendar-wrapper > table {
+		width: 100%;
+	}
+	/************************** Events page CSS  Ends **********************/
+	/************************** Search Result page CSS  Starts *************/
+	.search-result-cont .contact-details .ms-srch-item-title h3.ms-srch-ellipsis {
+		padding: 0;
+	}
+	/***Video***/
+	.ms-srch-item-icon {
+		margin: 0;
+	}
+
+	.ms-srch-video-itemmain {
+		max-width: 100%;
+		padding-bottom: 0;
+	}
+	/*div[id$="VideoOrganicTemplate"] {
+		margin: 5px 0 5px 0px;
+    	padding: 5px 0px 5px 0px;
+	}*/
+	.search-result-cont .contact-content .ms-srch-video-itemmain .ms-srch-item-video-path {
+		color: #5c707b;
+		font-size: 14px;
+		font-family: $font-regular;
+		width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.ms-srch-video-itemthumbnail {
+		margin: 0;
+	}
+
+	.ms-srch-video-itemmain h3 {
+		padding-top: 0;
+	}
+
+	.ms-srch-video-itemmain h3 a {
+		color: #5c707b;
+		font-size: 14px;
+		font-family: $font-regular;
+	}
+
+	.search-result-cont .contact-details .ms-srch-video-itemmain .ms-srch-item-summary {
+		color: #6e8794;
+		font-size: 14px;
+		font-family: $font-light;
+	}
+	/***Video***/
+	.search-result-cont .contact-content .ms-srch-item-body {
+		/*padding: 5px 0px 10px 10px;*/
+	}
+
+	.search-result-cont .contact-content .ms-srch-item {
+		margin: 5px 0 5px 0 !important;
+		padding: 20px !important;
+	}
+
+	.contact-details .SearchResultPage .ms-srch-people-item {
+		width: 640px;
+		padding: 10px !important;
+	}
+
+	.contact-details .SearchResultPage {
+		width: 100% !important;
+	}
+	/************************** Search Result page CSS  Ends *******************/
+	/************************** Contact page CSS Starts ***********************/
+	.contact-content .half-width {
+		width: 640px;
+		padding: 0;
+		float: right;
+	}
+
+	.search-result-cont .contact-content .contact-details.wide {
+		width: 960px;
+	}
+
+	.contact-content .inner-right-section {
+		width: 640px;
+		float: right;
+		padding: 0;
+	}
+
+	.contact-content .ms-srch-sb-searchLink {
+		right: -10px;
+		top: -1px;
+	}
+
+	.ms-srch-group,
+	.ms-srch-result {
+		margin-top: 0;
+	}
+
+	.contact-details .ms-srch-people-outerContainer {
+		width: 50%;
+	}
+
+	.contact-content .half-width .ms-srch-people-outerContainer .ms-srch-people-item {
+		width: auto;
+		padding: 5px 10px 0 0;
+	}
+
+	.contact-details .ms-srch-people-outerContainer .ms-srch-people-item #UserPersonaContainer {
+		width: 69px !important;
+		height: 60px !important;
+	}
+
+	.ms-srch-people-item #UserPersona {
+		height: 60px;
+	}
+
+	.half-width .ms-srch-people-outerContainer .ms-srch-people-item #UserInfoContainer {
+		width: 235px !important;
+	}
+
+	.inner-right-section .ms-srch-sbLarge > input {
+		width: 590px !important;
+	}
+
+	.contact-cont .intro-text {
+		padding: 0;
+	}
+
+	.search-result-cont .contact-content .half-width .ms-srch-item {
+		width: 600px;
+	}
+
+	div.contact-details.half-width.auto-section.wide .ms-srch-item {
+		width: auto;
+	}
+
+	div.contact-details .SearchResultPage .ms-srch-people-item {
+		width: 960px;
+	}
+
+	.refinement-btn {
+		width: 290px;
+		margin-right: 0;
+	}
+
+	.ms-displayInlineBlock {
+		margin-left: 10px;
+	}
+
+	.inner-left-section .ms-ref-refinername {
+		padding: 10px 0;
+		background: #e7e8ea;
+		width: 300px !important;
+	}
+
+	.inner-left-section .ms-ref-refiner #Value {
+		width: auto !important;
+	}
+
+	.inner-left-section #Container {
+		width: 100% !important;
+	}
+
+	#OtherValue,
+	#SubmitValue {
+		width: 290px !important;
+	}
+
+	.contact-cont .inner-left-section .ms-ref-unsel-shortList .ms-ref-name {
+		width: 267px;
+	}
+
+	.inner-left-section #Container div input {
+		margin-top: 0;
+	}
+
+	.half-width .SearchResultPage .ms-srch-people-item #SearchUserInfoContainer {
+		width: 535px;
+		float: left;
+		padding-left: 10px;
+	}
+
+	.ms-ref-ctrl {
+		margin-right: 0;
+		border-bottom: none!important;
+	}
+
+	#EmptyContainer {
+		display: none;
+	}
+
+	.Contact-Refiner-Less,
+	.contact-content .Contact-Refiner-More {
+		margin-left: 10px;
+	}
+
+	.histogram_container,
+	.slider_extent_label_section,
+	.slideronly_container {
+		margin-left: 10px;
+	}
+	/************************** Contact page CSS  Ends *******************/
+	/************************** Image Gallery Starts ********************/
+	.photo-gallery table.ms-listviewtable tr td > div {
+		width: auto;
+	}
+	/************************** Image Gallery Ends CSS Starts ********************/
+	/************************** Business Unit + Corp Services Starts CSS here ********************/
+	.business-unit .gallery-item .item-info {
+		margin: 0 auto;
+		width: 341px;
+	}
+
+	.notice-scroll > a > img {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+	/*** 404 Starts ***/
+	.vmsnet-contentBox .error-page .error-content {
+		width: 1120px;
+	}
+	/*** 404 Ends ***/
+	.business-unit .cbs-picture-img-link {
+		width: 320px;
+		margin-bottom: 17px;
+	}
+
+	.business-unit .gallery-item img {
+		height: auto;
+		margin-bottom: 10px;
+		float: right;
+		/*width: 50%;*/
+		margin-left: 20px;
+	}
+
+	.business-unit .gallery-item .item-info {
+		width: auto;
+	}
+
+	.business-unit .gallery-item .item-info .item-title {
+		padding: 0;
+		font-size: 16px;
+	}
+
+	.business-unit .gallery-item .item-content {
+		height: auto;
+	}
+
+	.notices-bg div.gallery.business-unit a {
+		height: 100px;
+	}
+
+	.notices-cont .business-unit .cbs-picture-img-link {
+		width: 50%;
+		margin-left: 0;
+	}
+
+	.notices-cont .business-unit .gallery-item .item-info {
+		width: auto;
+	}
+
+	.org-char-cont,
+	.org-char-cont h3 {
+		width: 960px;
+	}
+
+	.org-char-cont .ms-rtestate-field {
+		width: 940px;
+	}
+
+	.org-char-cont .colm {
+		width: 460px !important;
+	}
+
+	.corporate-services .cbs-picture-img-link {
+		width: 25%;
+		margin-bottom: 0;
+	}
+
+	.corporate-services-cont .item-info .northspace4 {
+		margin-top: 5px !important;
+	}
+
+	.imaging-component .team_org {
+		width: 220px;
+	}
+
+	.imaging-component .varian-people-bg {
+		width: 340px;
+	}
+
+	.imaging-component .events-bg {
+		width: 360px;
+	}
+
+	.corporate-services-main .spot-light-block .only-image {
+		width: 360px;
+		overflow-y: auto;
+	}
+
+	.community-main .events-bg {
+		width: 340px;
+	}
+
+	.location-section-cont .location-cont {
+		width: 340px;
+	}
+
+	.article-content-block > #dvPublishDate {
+		padding-top: 13px;
+	}
+
+	.ms-socialCommentItem .socialcomment-contents {
+		width: auto;
+	}
+
+	.ms-socialCommentItem .socialcomment-bottom {
+		padding-bottom: 0;
+	}
+
+	.article-block .comments-section-btns {
+		height: 25px;
+		/*border-bottom: 1px solid #dfe4e6;*/
+		width: 100%;
+	}
+
+	.article-block .comments-section {
+		width: 100%;
+	}
+
+	.photo-gallery .ms-tileview-tile-root {
+		width: 219px !important;
+		height: 159px !important;
+	}
+
+	.slides-default-img .ms-srch-result-noResults {
+		width: 100%;
+		padding: 0;
+	}
+
+	.imaging-component-cont .page-info {
+		width: 100%;
+	}
+
+	.imaging-component .management-team-cont {
+		width: 220px;
+	}
+
+	.imaging-component .management-team-cont .custom-scroll {
+		height: 366px !important;
+	}
+
+	.imaging-component .featured-application {
+		width: auto;
+	}
+
+	.imaging-component .featured-application .bx-viewport {
+		width: 99%!important;
+	}
+
+	.imaging-component .referrals {
+		width: 360px;
+		float: right;
+		margin: 0 0 20px;
+	}
+
+	.how-do-i .heading {
+		width: 90%;
+	}
+
+	.how-do-i .common-select {
+		width: 100%;
+	}
+
+	.how-do-i .answer {
+		width: 98%;
+	}
+
+	.notice-scroll .colm {
+		width: 100% !important;
+		margin: 0 0 20px;
+	}
+	/****************** Business Unit + Corp Services CSS Ends **********************/
+	/*.ms-core-menu-box, .ms-core-menu-boxBig{
+		background: #f1f3f4;
+	    margin-top: -1px;
+	    border-bottom: 1px solid #dfe5e9;
+	    border-right: 1px solid #ebeff1;
+	    color: #6f8794;
+	    font-family: $font-regular, Arial, Helvetica, sans-serif;
+	    font-size: 13px;
+	    text-overflow: ellipsis;
+	}
+	.ms-srch-upscope-top{
+		margin:0px;
+		width:100%;
+		color: #5c707b;
+	    font-size: 12px;
+	    font-family: $font-regular;
+	}*/
+	/****************** Generic Layout HR CSS Start Here **********************/
+	.article-content-block > h3 {
+		/*padding:0px;*/
+	}
+
+	#resources_table {
+		width: 100%;
+	}
+
+	#resource_views {
+		margin-left: 0;
+		padding: 0 0 10px;
+	}
+
+	.resources_box_links {
+		margin: 0 0 0 10px;
+	}
+
+	.generic-webpart-zones ul {
+		margin: 0 3px 0 20px;
+	}
+
+	.breadcumb-main-menu > li:last-child > a {
+		padding: 5px 0;
+	}
+
+	.ms-webpartzone-cell {
+		margin: auto auto 10px;
+	}
+
+	.tree-view-cont {
+		width: 100%;
+	}
+
+	.tree-view-cont .tree-view {
+		width: 100% !important;
+	}
+	/****************** Generic Layout HR CSS Start Here **********************/
+	/****************** After Deployment CSS Fixes Start Here *****************/
+	.article-content-block .ms-rtestate-field ul {
+		margin-left: 0;
+	}
+
+	.generic-layout .box.full-width .compass {
+		width: auto;
+	}
+
+	.generic-layout .box.full-width .compass ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	.generic-layout .box.full-width .compass ul li {
+		margin: 4px 4px 4px 8px;
+		padding: 0;
+	}
+
+	.generic-layout .box.full-width .compass .colm {
+		margin: 0 20px 20px 0;
+		width: 460px;
+	}
+
+	.generic-layout .box.half-width {
+		width: 480px;
+	}
+
+	.generic-layout .vertical-container {
+		margin-left: 0;
+	}
+
+	.generic-layout .vertical-container .box.half-width {
+		padding-left: 0;
+	}
+
+	.generic-layout .half-width.right-box {
+		float: right;
+	}
+
+	.generic-layout .half-width.right-box .ms-rtestate-field TABLE {
+		width: 100%;
+	}
+	/****************** After Deployment CSS Fixes Ends Here **********************/
+}
+/****************************************************** 1280px Wrapper Ends ****************************************************/
+@media(max-width: 567px) {
+	.header .user-control-panel.open {
+		-webkit-transform: translate3d(0, 0, 0);
+		        transform: translate3d(0, 0, 0);
+		height: 170px;
+		margin: 0;
+		opacity: 1;
+		top: 40px;
+	}
+
+	section.user-control-panel > div.user-control-item {
+		-webkit-transform: translate3d(30px, 10px, 0);
+		        transform: translate3d(30px, 10px, 0);
+		margin: 20px 0;
+		-webkit-transition: 300ms ease-in-out 200ms;
+		transition: 300ms ease-in-out 200ms;
+		float: none;
+		display: block;
+		width: 250px;
+	}
+
+	section.user-control-panel.open > div.user-control-item {
+		opacity: 1;
+		-webkit-transform: translate3d(30px, 0, 0);
+		        transform: translate3d(30px, 0, 0);
+	}
+
+	section.user-control-panel.open > div.user-control-item.sign-out-cont {
+		display: none;
+	}
+}

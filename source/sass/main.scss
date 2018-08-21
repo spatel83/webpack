@@ -1,0 +1,20 @@
+/**
+ * Fonts, colors and other variables.
+ */
+@import 'partials/variables';
+
+/**
+ * Old Styles live in these two massive partials.
+ */
+
+@import 'partials/old';
+@import 'partials/responsive';
+
+/**
+ * Add new partials after this line.
+ */
+@import "partials/safety";
+@import "partials/classification";
+@import "partials/new_brand";
+@import 'partials/difference';
+@import 'partials/changes';
