@@ -1,0 +1,43 @@
+{
+  "name": "vmsnet-frontend",
+  "version": "1.0.0",
+  "description": "Source files used for VMSNet frontend.",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^8.1.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "mocha": "^4.0.0",
+    "mocha-webpack": "^1.0.1",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "webpack -p",
+    "dev": "webpack",
+    "devSaas": "sass ./source/sass/main.scss ./build/css/main.css",
+    "prodSaas": "sass ./source/sass/main.scss ./build/css/main.css --style compressed",
+    "watchCss": "sass --watch source/sass:build/css",
+    "start:dev": "webpack-dev-server"
+  },
+  "author": "Ian Rogren",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
